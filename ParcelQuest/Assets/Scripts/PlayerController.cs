@@ -1,46 +1,60 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
+    // Creating a var for rigitbody2d
+    public Rigidbody2D rd;
+    // creating a var for animetor
+    Animator anime;
 
-    private Animator anim;
+    // for player animetion 
+    bool PlayerMoving;
+    Vector2 LastMove;
 
-    private bool playerMoving;
-    private Vector2 lastMove;
+    public float speed = 5.0f;
 
-    // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
+        // storing Rigitdhody2D in rd
+        rd = GetComponent<Rigidbody2D>();
+
+        // storing Animetor in anime
+        anime = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
-
+    void FixedUpdate()
     {
-        playerMoving = false;
+        float x = Input.GetAxisRaw("Horizontal");
+        float y = Input.GetAxisRaw("Vertical");
 
-        if (Input.GetAxisRaw ("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
+        // Condition to tigger Player moving or not & seting lastmove Values
+        if (x == -1 || x == 1 || y == -1 || y == 1)
         {
-            transform.Translate (new Vector3 (Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
-            playerMoving = true;
-            lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
+            PlayerMoving = true;
+            LastMove = new Vector2(x, y);
+            // Debug.Log("ok");
+        }
+        else
+        {
+            PlayerMoving = false;
         }
 
-        else if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
-        {
-            transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertical") * moveSpeed * Time.deltaTime, 0f));
-            playerMoving = true;
-            lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
-        }
+        // creating a Vector2 for position
+        Vector2 move = new Vector2(x, y);
 
-        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        anim.SetBool("PlayerMoving", playerMoving);
-        anim.SetFloat("LastMoveX", lastMove.x);
-        anim.SetFloat("LastMoveY", lastMove.y);
+        //using rigidbody2d position to move and using + to add up values not just set values
+        rd.position += move * speed * Time.deltaTime;
+
+
+        // set MoveX & MoveY value as RD x & y value
+        anime.SetFloat("MoveX", x);
+        anime.SetFloat("MoveY", y);
+        // seting Playermoving to bool PlayerMoving true or false
+        anime.SetBool("PlayerMoving", PlayerMoving);
+        //setting LastMove to animetor
+        anime.SetFloat("LastMoveX", LastMove.x);
+        anime.SetFloat("LastMoveY", LastMove.y);
+
     }
 }
