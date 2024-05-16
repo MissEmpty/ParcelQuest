@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
@@ -9,12 +10,26 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D myRigidboy;
 
     private bool playerMoving;
-    private Vector2 lastMove;
+    public Vector2 lastMove;
+
+    private static bool playerExists;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
         myRigidboy = GetComponent<Rigidbody2D>();
+
+        if(!playerExists)
+        {
+            playerExists = true;
+            DontDestroyOnLoad(transform.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        
     }
 
     private void Update()
