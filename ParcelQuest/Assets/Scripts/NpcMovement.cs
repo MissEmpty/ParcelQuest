@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Windows;
 
 public class NpcMovement : MonoBehaviour
 {
+    [SerializeField] Transform playerTransform;
     public float moveSpeed;
     private Vector2 minWalkPoint;
     private Vector2 maxWalkPoint;
@@ -24,14 +26,23 @@ public class NpcMovement : MonoBehaviour
     public Collider2D walkZone;
     private bool hasWalkZone;
 
+    public bool canMove;
+    private DialogueManager theDm;
+
     public Animator anim;
     public Vector2 lastMove;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        theDm = FindObjectOfType<DialogueManager>();
+        
+       
+
 
         waitCounter = waitTime;
         walkCounter = walkTime;
@@ -44,11 +55,25 @@ public class NpcMovement : MonoBehaviour
             maxWalkPoint = walkZone.bounds.max;
             hasWalkZone = true;
         }
+
+        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!theDm.dialogActive)
+        {
+            canMove = true;
+        }
+
+        if(!canMove)
+        {
+            myRigidbody.velocity = Vector2.zero;
+           
+            return;
+        }
+
         if(isWalking == false)
         {
             facing.x = 0;
@@ -142,4 +167,38 @@ public class NpcMovement : MonoBehaviour
         isWalking = true;
         walkCounter = walkTime;
     }
+
+    public void Interact()
+    {
+        Vector3 directionToPlayer = playerTransform.position - transform.position;
+
+        if (Mathf.Abs(directionToPlayer.x) > Mathf.Abs(directionToPlayer.y))
+        {
+            if(directionToPlayer.x > 0)
+            {
+                lastMove = new Vector2(1f, 0f);
+            }
+            else if (directionToPlayer.x < 0)
+            {
+                lastMove = new Vector2(-1f, 0f);
+            }
+           
+        
+        }
+        else
+        {
+            if (directionToPlayer.y > 0)
+            {
+                lastMove = new Vector2(0f, 1f);
+            }
+            else if (directionToPlayer.y < 0)
+            {
+                lastMove = new Vector2(0f, -1f);
+            }
+        }
+        anim.SetFloat("LastMoveX", lastMove.x);
+        anim.SetFloat("LastMoveY", lastMove.y);
+    }
+
+
 }

@@ -18,6 +18,8 @@ public class PlayerController : MonoBehaviour
 
     public string startPoint;
 
+    public bool canMove;
+
     private void Start()
     {
         anim = GetComponent<Animator>();
@@ -33,12 +35,18 @@ public class PlayerController : MonoBehaviour
             Destroy(gameObject);
         }
 
-        
+        canMove = true;
     }
 
     private void Update()
     {
         playerMoving = false;
+
+        if(!canMove)
+        {
+            myRigidboy.velocity = Vector2.zero;
+            return;
+        }
 
         if(Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
         {

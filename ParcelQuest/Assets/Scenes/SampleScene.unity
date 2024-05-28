@@ -631,6 +631,7 @@ GameObject:
   - component: {fileID: 481614334}
   - component: {fileID: 481614336}
   - component: {fileID: 481614335}
+  - component: {fileID: 481614337}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -690,7 +691,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!222 &481614336
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -699,6 +700,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481614333}
   m_CullTransparentMesh: 1
+--- !u!114 &481614337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481614333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d491e2a33457d4ab5807577fa44b7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &511937859
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,12 +745,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be3fb479d651f6045b5def4830530b13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 1279717132}
   moveSpeed: 2
   isWalking: 0
   facing: {x: 0, y: 0}
   walkTime: 1
   waitTime: 3
   walkZone: {fileID: 1987659497}
+  canMove: 0
   anim: {fileID: 0}
   lastMove: {x: 0, y: 0}
 --- !u!50 &511937861
@@ -7610,6 +7625,7 @@ MonoBehaviour:
   dBox: {fileID: 1123163803}
   dText: {fileID: 481614335}
   dialogActive: 0
+  canContinueToNextLine: 0
 --- !u!1 &978627070
 GameObject:
   m_ObjectHideFlags: 0
@@ -10796,9 +10812,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: Hey there!
   dialogLines:
-  - Test1
-  - Test2
-  - Test3
+  - ffwefj9wfjasjdf9e0fj9efj9wefdawuoi8fh8euwfhnewohfn8iowhf8owehf8ewhfe
+  - fwqj9j9ewjf9jwfj9wejfw9ejffweuf ioewfnieuwfniwefhniewf
+  - wjf0wejf0wejf0wfj0efjf0wfew9fiuowej9fjwefje89iwfjwef
   currLine: 0
 --- !u!61 &1164194026
 BoxCollider2D:
@@ -21536,6 +21552,11 @@ Tilemap:
 --- !u!1 &1279717126 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3547928335587434544, guid: a59c794e9d360be48b6d9d36af813e40, type: 3}
+  m_PrefabInstance: {fileID: 1855182175190921564}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1279717132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7861484199485061140, guid: a59c794e9d360be48b6d9d36af813e40, type: 3}
   m_PrefabInstance: {fileID: 1855182175190921564}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1318716836

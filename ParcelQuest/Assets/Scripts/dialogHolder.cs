@@ -14,10 +14,13 @@ public class dialogHolder : MonoBehaviour
     public string[] dialogLines;
     public int currLine;
 
+   private NpcMovement NpcMovement;
+
     void Start()
     {
         dMan = FindObjectOfType<DialogueManager>();
-
+      
+        NpcMovement = FindObjectOfType<NpcMovement>();
     }
 
     // Update is called once per frame
@@ -26,10 +29,17 @@ public class dialogHolder : MonoBehaviour
         //Handles Button Presses
         if (Input.GetKeyUp(KeyCode.E) && playerEnter && !dMan.dialogActive)
         {
+            
+
             dMan.ShowBox(dialogLines[currLine]);
             ++currLine;
+            if (transform.parent.GetComponent<NpcMovement>() != null)
+            {
+               
+                transform.parent.GetComponent<NpcMovement>().canMove = false;
+            }
         }
-        else if (Input.GetKeyUp(KeyCode.E) && playerEnter && dMan.dialogActive)
+        else if (dMan.canContinueToNextLine && Input.GetKeyUp(KeyCode.E) && playerEnter && dMan.dialogActive)
         {
             if (currLine >= dialogLines.Length)
             {
@@ -41,6 +51,8 @@ public class dialogHolder : MonoBehaviour
                 dMan.ShowBox(dialogLines[currLine]);
                 ++currLine;
             }
+
+           
         }
     }
     // OnTriggerEnter2D: Run fxn the instance player enters the collider
