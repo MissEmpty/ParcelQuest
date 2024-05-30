@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &3022081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3022082}
+  m_Layer: 8
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3022082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3022081}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.449, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1026597596}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &185631310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1035,52 +1066,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &770935369
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 770935371}
-  - component: {fileID: 770935370}
-  m_Layer: 0
-  m_Name: Start Point
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &770935370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770935369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4c4b76bd4815b943ab6a7e76dbecf84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startDirection: {x: 0, y: 1}
-  pointName: Inn In
---- !u!4 &770935371
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770935369}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.361, y: -5.694, z: 1.3502264}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &805994109
 GameObject:
   m_ObjectHideFlags: 0
@@ -2214,7 +2199,6 @@ GameObject:
   m_Component:
   - component: {fileID: 922027080}
   - component: {fileID: 922027079}
-  - component: {fileID: 922027078}
   m_Layer: 0
   m_Name: World Bounds
   m_TagString: Untagged
@@ -2222,18 +2206,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &922027078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922027077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1241d0b056326734886f34cc2f5afe4f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &922027079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2288,7 +2260,7 @@ Transform:
   m_GameObject: {fileID: 922027077}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.6415567, y: -3.506535, z: 0.6762074}
+  m_LocalPosition: {x: 36.09357, y: -3.506535, z: 0.6762074}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2304,28 +2276,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1026597596}
   - component: {fileID: 1026597595}
-  - component: {fileID: 1026597594}
-  m_Layer: 0
-  m_Name: VillageEntry
+  - component: {fileID: 1026597597}
+  m_Layer: 8
+  m_Name: VillagePortal
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1026597594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1026597593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27102e991ab996c4e949783e05132e84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelToLoad: SampleScene
-  exitPoint: Inn Out
 --- !u!61 &1026597595
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2358,7 +2316,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.043929577}
+  m_Offset: {x: 0.004676819, y: 0.095370054}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2369,7 +2327,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.7364216}
+  m_Size: {x: 1.495697, y: 0.83930254}
   m_EdgeRadius: 0
 --- !u!4 &1026597596
 Transform:
@@ -2380,12 +2338,27 @@ Transform:
   m_GameObject: {fileID: 1026597593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -6.694, z: 0.8695897}
+  m_LocalPosition: {x: 36.435127, y: -6.479, z: 0.8695897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 3022082}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1026597597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026597593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c316b9efe954649b3e11ca6ee75c29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destinationPortal: 1
+  spawnPoint: {fileID: 3022082}
 --- !u!1 &2043225028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2424,7 +2397,7 @@ Transform:
   m_GameObject: {fileID: 2043225028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1948732, y: -5.471859, z: 1.0496153}
+  m_LocalPosition: {x: 37.93, y: -5.471859, z: 1.0496153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2440,4 +2413,3 @@ SceneRoots:
   - {fileID: 2043225030}
   - {fileID: 922027080}
   - {fileID: 1026597596}
-  - {fileID: 770935371}

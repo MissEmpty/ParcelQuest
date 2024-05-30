@@ -1,94 +1,81 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+
 
 public class PlayerController : MonoBehaviour
 {
-    public float moveSpeed;
-    private float currentMoveSpeed;
-    public float diagonalMoveModifier;
+    
+    private Vector2 input;
 
-    private Animator anim;
-    private Rigidbody2D myRigidboy;
-
-    private bool playerMoving;
-    public Vector2 lastMove;
-
-    private static bool playerExists;
-
-    public string startPoint;
-
-    public bool canMove;
-
-    private void Start()
+    public static PlayerController i {  get; private set; } 
+    private Character character;
+    private void Awake()
     {
-        anim = GetComponent<Animator>();
-        myRigidboy = GetComponent<Rigidbody2D>();
-
-        if(!playerExists)
-        {
-            playerExists = true;
-            DontDestroyOnLoad(transform.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-
-        canMove = true;
+       i = this;
+        character = GetComponent<Character>();
     }
 
-    private void Update()
+    public void HandleUpdate()
     {
-        playerMoving = false;
-
-        if(!canMove)
+     if (!character.IsMoving)
         {
-            myRigidboy.velocity = Vector2.zero;
-            return;
+            input.x = Input.GetAxisRaw("Horizontal");
+            input.y = Input.GetAxisRaw("Vertical");
+
+            if (input.x != 0) input.y = 0;
+
+            if (input != Vector2.zero)
+            {
+               StartCoroutine(character.Move(input, OnMoveOver));
+            }
         }
 
-        if(Input.GetAxisRaw("Horizontal") > 0.5f || Input.GetAxisRaw("Horizontal") < -0.5f)
-        {
-            //transform.Translate(new Vector3(Input.GetAxisRaw("Horizontal") * moveSpeed * Time.deltaTime, 0f, 0f));
-            myRigidboy.velocity = new Vector2 (Input.GetAxisRaw("Horizontal") * currentMoveSpeed, myRigidboy.velocity.y);
-            playerMoving = true;
-            lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
-        }
+        character.HandleUpdate();
 
-        if(Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw ("Vertical") < -0.5f)
-        {
-            //transform.Translate(new Vector3(0f, Input.GetAxisRaw("Vertcal") * moveSpeed * Time.deltaTime, 0f));
-            myRigidboy.velocity = new Vector2(myRigidboy.velocity.x, Input.GetAxisRaw("Vertical") * currentMoveSpeed);
-            playerMoving = true;
-            lastMove = new Vector2(0f, Input.GetAxisRaw("Vertical"));
-        }
-
-        if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
-        {
-            myRigidboy.velocity = new Vector2(0f, myRigidboy.velocity.y);
-        }
-
-        if (Input.GetAxisRaw("Vertical") < 0.5f && Input.GetAxisRaw("Vertical") > -0.5f)
-        {
-            myRigidboy.velocity = new Vector2(myRigidboy.velocity.x, 0f);
-        }
-
-        if (Mathf.Abs (Input.GetAxisRaw("Horizontal")) > 0.5f && Mathf.Abs (Input.GetAxisRaw("Vertical")) > 0.5f)
-        {
-            currentMoveSpeed = moveSpeed * diagonalMoveModifier;
-        }
-        else
-        {
-            currentMoveSpeed = moveSpeed;
-        }
-
-        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        anim.SetBool("PlayerMoving", playerMoving);
-        anim.SetFloat("LastMoveX", lastMove.x);
-        anim.SetFloat("LastMoveY", lastMove.y);
+        if (Input.GetKeyDown(KeyCode.E))
+           StartCoroutine(Interact());
     }
+    IEnumerator Interact()
+    {
+        var facingDir = new Vector3(character.Animator.MoveX,character.Animator.MoveY);
+        var interactPos = transform.position + facingDir;
+
+        //Debug.DrawLine(transform.position, interactPos, Color.green, 0.5f);
+
+       var collider = Physics2D.OverlapCircle(interactPos, 0.3f, GameLayers.i.InteractableLayer);
+        if (collider != null)
+        {
+           yield return collider.GetComponent<Interactable>()?.Interact(transform);
+        }
+    }
+
+    IPlayerTriggerable currentlyInTrigger;
+
+    private void OnMoveOver()
+    {
+       var colliders = Physics2D.OverlapCircleAll(transform.position - new Vector3(0, character.OffsetY), 0.2f, GameLayers.i.TriggerableLayers);
+
+        IPlayerTriggerable triggerable = null; 
+        foreach (var collider in colliders)
+        {
+            triggerable = collider.GetComponent<IPlayerTriggerable>();
+            if (triggerable != null)
+            {
+                if (triggerable == currentlyInTrigger && !triggerable.TriggerRepeatedly)
+                    break;
+
+                triggerable.OnPlayerTriggered(this);
+                currentlyInTrigger = triggerable;
+                break;
+            }
+        }
+        if (colliders.Count() == 0 || triggerable != currentlyInTrigger)
+            currentlyInTrigger = null;
+    }
+
+
+    public Character Character => character;
 }
-
-
