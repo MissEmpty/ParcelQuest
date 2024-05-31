@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5add20868bfed574ab644a5d4165c4bc, type: 3}
-  m_Name: Key
+  m_Script: {fileID: 11500000, guid: 7e6371d344c7ff84aa6a902049e858da, type: 3}
+  m_Name: Pickup
   m_EditorClassIdentifier: 
-  name: I found the key to the mayors house.
+  name: I found a gem.
   description: 
   icon: {fileID: 0}
