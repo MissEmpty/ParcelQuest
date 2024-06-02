@@ -45,6 +45,9 @@ TagManager:
   - name: Ground
     uniqueID: 1971263085
     locked: 0
+  - name: Background-1
+    uniqueID: 1988307153
+    locked: 0
   - name: Background2
     uniqueID: 734014565
     locked: 0
@@ -56,6 +59,12 @@ TagManager:
     locked: 0
   - name: Top
     uniqueID: 1472899783
+    locked: 0
+  - name: Top2
+    uniqueID: 933819013
+    locked: 0
+  - name: Top3
+    uniqueID: 443126557
     locked: 0
   - name: Npc
     uniqueID: 3312009169

@@ -7,7 +7,7 @@ public class CameraMovement : MonoBehaviour
     public Transform target;
     public float smoothing;
 
-
+    public BoxCollider2D boundBox;
 
 
 

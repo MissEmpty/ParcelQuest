@@ -22,11 +22,14 @@ public class SceneDetails : MonoBehaviour
             LoadScene();
             GameController.Instance.SetCurrentScene(this);
 
-            
-                foreach (var scene in connectedScenes)
-                {
-                    scene.LoadScene();
-                }
+            //if (sceneMusic != null)
+               // AudioManager.i.PlayMusic(sceneMusic, fade: true);
+
+            // Load all connected scenes
+            foreach (var scene in connectedScenes)
+            {
+                scene.LoadScene();
+            }
 
             // Unload the scenes that ar no longer connected
             var prevScene = GameController.Instance.PrevScene;
@@ -54,8 +57,8 @@ public class SceneDetails : MonoBehaviour
 
             operation.completed += (AsyncOperation op) =>
             {
-                //savableEntities = GetSavableEntitiesInScene();
-                //SavingSystem.i.RestoreEntityStates(savableEntities);
+                savableEntities = GetSavableEntitiesInScene();
+                SavingSystem.i.RestoreEntityStates(savableEntities);
             };
         }
     }
@@ -64,7 +67,7 @@ public class SceneDetails : MonoBehaviour
     {
         if (IsLoaded)
         {
-            //SavingSystem.i.CaptureEntityStates(savableEntities);
+            SavingSystem.i.CaptureEntityStates(savableEntities);
 
             SceneManager.UnloadSceneAsync(gameObject.name);
             IsLoaded = false;
@@ -77,5 +80,7 @@ public class SceneDetails : MonoBehaviour
         var savableEntities = FindObjectsOfType<SavableEntity>().Where(x => x.gameObject.scene == currScene).ToList();
         return savableEntities;
     }
+
+    public AudioClip SceneMusic => sceneMusic;
 }
 
