@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: GrannyLetterQuest
+  m_Name: MissingShipmentStart
   m_EditorClassIdentifier: 
-  name: Granny Letter Quest
+  name: Missing Shipment Start
   description: 
   startDialogue:
     lines:
-    - Welcome to your first day at the local post office Cylia! I'm Edna and I will
-      help you with your errands today.
-    - For your first one, I want you to bring this letter to Grannie Ann. In the
-      mornings, she is usually around her house, on the left to our office. Send
-      her my greetings!
+    - You where able to not only deliver the fertilizer, but also help Farmer Wells?
+      It's only your first day, but you are doing great!
+    - 'For your next delivery, I want you to go and talk to Dorothy, the owner of
+      the general store. '
+    - If you don't know already, the store is located at the bottom half of the village,
+      to the right of the stairs.
   inProgressDialogue:
     lines: []
   completedDialogue:

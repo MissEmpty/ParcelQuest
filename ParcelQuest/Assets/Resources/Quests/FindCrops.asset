@@ -10,19 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: GrannyLetterQuest
+  m_Name: FindCrops
   m_EditorClassIdentifier: 
-  name: Granny Letter Quest
+  name: Find Crops
   description: 
   startDialogue:
     lines:
-    - Welcome to your first day at the local post office Cylia! I'm Edna and I will
-      help you with your errands today.
-    - For your first one, I want you to bring this letter to Grannie Ann. In the
-      mornings, she is usually around her house, on the left to our office. Send
-      her my greetings!
+    - Thank you for delivering my fertilizer. But it won't help me much, if someone
+      doesn't stop stealing my crops!
+    - 'Last night I found some foot prints leading from my field to the forest on
+      the left side of the village. '
+    - I'm busy guarding the scene, so if you have the time, could you maybe see if
+      you can find the cropsnatcher over there?
   inProgressDialogue:
-    lines: []
+    lines:
+    - Did you find out anything? The tracks lead me to the forest entrance.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
+  m_Name: LookForShipment
+  m_EditorClassIdentifier: 
+  name: Look For Shipment
+  description: 
+  startDialogue:
+    lines:
+    - You are working for the post office, right? Maybe you could help me then.
+    - 'A shipment of goods should habe arrived two days ago, but it seems like it''s
+      gone missing. '
+    - Could you help me and go look for it, please? I would start off in the forest,
+      that's where goods usually pass through. And don't forget to check every nook
+      and cranny!
+  inProgressDialogue:
+    lines:
+    - Did you find my shipment? The forest has some hidden areas, maybe you could
+      check them out too.
+  completedDialogue:
+    lines:
+    - 'You found it! It was in a cave? That is odd indeed, I wonder what it was doing
+      there. '
+    - Thanks again for your help and say hello to Edna from me.
+  requiredItem: {fileID: 11400000, guid: 6706ebb746f279545b217ef19885bf34, type: 2}
+  rewardItem: {fileID: 0}

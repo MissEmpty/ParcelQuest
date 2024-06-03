@@ -155,6 +155,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedScenes:
   - {fileID: 618600724}
+  - {fileID: 1512874983}
+  - {fileID: 2081878925}
+  - {fileID: 1503041942}
+  - {fileID: 1239968651}
   sceneMusic: {fileID: 0}
 --- !u!61 &11697343
 BoxCollider2D:
@@ -308,6 +312,7 @@ MonoBehaviour:
   - {fileID: 2081878925}
   - {fileID: 1503041942}
   - {fileID: 11697342}
+  - {fileID: 1239968651}
   sceneMusic: {fileID: 0}
 --- !u!61 &618600725
 BoxCollider2D:
@@ -401,6 +406,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedScenes:
   - {fileID: 1512874983}
+  - {fileID: 618600724}
+  - {fileID: 2081878925}
+  - {fileID: 1503041942}
+  - {fileID: 11697342}
   sceneMusic: {fileID: 0}
 --- !u!61 &1239968652
 BoxCollider2D:
@@ -494,6 +503,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedScenes:
   - {fileID: 618600724}
+  - {fileID: 1512874983}
+  - {fileID: 1239968651}
+  - {fileID: 2081878925}
+  - {fileID: 11697342}
   sceneMusic: {fileID: 0}
 --- !u!61 &1503041943
 BoxCollider2D:
@@ -588,6 +601,9 @@ MonoBehaviour:
   connectedScenes:
   - {fileID: 1239968651}
   - {fileID: 618600724}
+  - {fileID: 2081878925}
+  - {fileID: 1503041942}
+  - {fileID: 11697342}
   sceneMusic: {fileID: 0}
 --- !u!61 &1512874984
 BoxCollider2D:
@@ -681,6 +697,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   connectedScenes:
   - {fileID: 618600724}
+  - {fileID: 1512874983}
+  - {fileID: 1503041942}
+  - {fileID: 11697342}
+  - {fileID: 1239968651}
   sceneMusic: {fileID: 0}
 --- !u!61 &2081878926
 BoxCollider2D:
@@ -748,8 +768,8 @@ SceneRoots:
   m_Roots:
   - {fileID: 247794491}
   - {fileID: 618600726}
-  - {fileID: 1239968653}
   - {fileID: 1512874985}
   - {fileID: 2081878927}
   - {fileID: 1503041944}
   - {fileID: 11697344}
+  - {fileID: 1239968653}

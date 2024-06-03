@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: GrannyLetterQuest
+  m_Name: ReportbacktoFarmerWells
   m_EditorClassIdentifier: 
-  name: Granny Letter Quest
+  name: Reportbackto Farmer Wells
   description: 
   startDialogue:
     lines:
-    - Welcome to your first day at the local post office Cylia! I'm Edna and I will
-      help you with your errands today.
-    - For your first one, I want you to bring this letter to Grannie Ann. In the
-      mornings, she is usually around her house, on the left to our office. Send
-      her my greetings!
+    - M-me, eating crops? No, you have the wrong bear!
+    - ...
+    - The crop in my hand? Okay, maybe that was one I borrowed. But they are just
+      so good!
+    - I won't do it anymore, bu please don't report me to the farmer!
   inProgressDialogue:
     lines: []
   completedDialogue:
