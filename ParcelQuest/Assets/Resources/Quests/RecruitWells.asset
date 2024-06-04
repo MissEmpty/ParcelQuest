@@ -10,17 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: ReportbacktoFarmerWells
+  m_Name: RecruitWells
   m_EditorClassIdentifier: 
-  name: Reportbackto Farmer Wells
+  name: Recruit Wells
   description: 
   startDialogue:
     lines:
-    - M-me, eating crops? No, you have the wrong guy!
-    - ...
-    - The crop in my hand? Okay, maybe that was one I borrowed. But they are just
-      so good!
-    - I won't do it anymore, but please don't report me to the farmer!
+    - Rosa wants me to tell stories for the festival? Of course, I would be happy
+      to!
+    - I think Farmer Wells said something about providing some of his crops. Maybe
+      you should go and talk to him about that.
   inProgressDialogue:
     lines: []
   completedDialogue:

@@ -2085,8 +2085,8 @@ MonoBehaviour:
   questToCheck: {fileID: 11400000, guid: abaaf657634b4b1419bf05184da76a45, type: 2}
   onStart: 1
   onComplete: 0
-  questToCheck2: {fileID: 0}
-  onStart2: 0
+  questToCheck2: {fileID: 11400000, guid: a6340d00269ece34caef1d3790c84718, type: 2}
+  onStart2: 2
   onComplete2: 0
 --- !u!4 &889726443
 Transform:
@@ -2948,8 +2948,8 @@ MonoBehaviour:
   questToCheck: {fileID: 11400000, guid: abaaf657634b4b1419bf05184da76a45, type: 2}
   onStart: 2
   onComplete: 0
-  questToCheck2: {fileID: 0}
-  onStart2: 0
+  questToCheck2: {fileID: 11400000, guid: a6340d00269ece34caef1d3790c84718, type: 2}
+  onStart2: 1
   onComplete2: 0
 --- !u!4 &1916118888
 Transform:

@@ -27,6 +27,7 @@ public class NPCController : MonoBehaviour, Interactable
         character = GetComponent<Character>();
         itemGiver = GetComponent<ItemGiver>();
 
+
     }
 
     public IEnumerator Interact(Transform initiator)
@@ -49,7 +50,8 @@ public class NPCController : MonoBehaviour, Interactable
             {
                 yield return itemGiver.GiveItem(initiator.GetComponent<PlayerController>());
             }
-          
+
+
             else if (questToStart != null)
             {
                 activeQuest = new Quest(questToStart);
@@ -74,6 +76,7 @@ public class NPCController : MonoBehaviour, Interactable
                     yield return DialogManager.Instance.ShowDialog(activeQuest.Base.InProgressDialogue);
                 }
             }
+
             else
             {
                 yield return DialogManager.Instance.ShowDialog(dialog);
@@ -114,14 +117,14 @@ public class NPCController : MonoBehaviour, Interactable
         state = NPCState.Idle;
     }
 
-   
 
-   
+
+    [System.Serializable]
+
+
+    public enum NPCState { Idle, Walking, Dialog }
 }
 
-
-
-public enum NPCState { Idle, Walking, Dialog }
 
 
 

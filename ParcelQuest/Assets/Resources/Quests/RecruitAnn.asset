@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: ReportbacktoFarmerWells
+  m_Name: RecruitAnn
   m_EditorClassIdentifier: 
-  name: Reportbackto Farmer Wells
+  name: Recruit Ann
   description: 
   startDialogue:
     lines:
-    - M-me, eating crops? No, you have the wrong guy!
-    - ...
-    - The crop in my hand? Okay, maybe that was one I borrowed. But they are just
-      so good!
-    - I won't do it anymore, but please don't report me to the farmer!
+    - Are these the special cups for the festival? Thank you, I'm relieved they're
+      finally here.
+    - I'm having my hands full with preparations, so could you maybe help me? I still
+      need some people to perform and provide food.
+    - Maybe you could start with asking Grannie Ann if she can tell her famous stories.
+      That would be great!
   inProgressDialogue:
     lines: []
   completedDialogue:
