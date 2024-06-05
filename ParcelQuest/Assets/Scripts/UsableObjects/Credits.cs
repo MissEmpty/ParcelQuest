@@ -9,20 +9,20 @@ public class Credits : MonoBehaviour
 
     private void Awake()
     {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+       // audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
     void Update()
     {
         if (Input.GetKeyUp(KeyCode.E))
         {
-            audioManager.PlaySFX(audioManager.text);
+            //audioManager.PlaySFX(audioManager.text);
             StartCoroutine(_PlayGame());
         }
 
     }
     private IEnumerator _PlayGame()
     {
-        yield return new WaitForSeconds(0.3f);
+      yield return new WaitForSeconds(0.3f);
         Application.Quit();
     }
 }

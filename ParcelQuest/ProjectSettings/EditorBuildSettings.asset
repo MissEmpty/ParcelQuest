@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PostOfficeScene.unity
     guid: 6bc32d1ca6f62544ebee756567ece461
+  - enabled: 1
+    path: Assets/Scenes/Endscreen.unity
+    guid: 84211de2eb633214abaf379ff858516a
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 7c3a08625045ea840bc4671ded340d98, type: 2}

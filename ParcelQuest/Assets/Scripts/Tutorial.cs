@@ -9,7 +9,7 @@ public class Tutorial : MonoBehaviour
 
     void Start()
     {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+       // audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     
@@ -19,7 +19,7 @@ public class Tutorial : MonoBehaviour
         {
             
             tutorial.gameObject.SetActive(false);
-            audioManager.PlaySFX(audioManager.text);
+           // audioManager.PlaySFX(audioManager.text);
         }
     }
 }
