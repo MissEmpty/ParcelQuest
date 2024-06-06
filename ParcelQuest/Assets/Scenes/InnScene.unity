@@ -5007,8 +5007,8 @@ MonoBehaviour:
   questToCheck: {fileID: 11400000, guid: a6340d00269ece34caef1d3790c84718, type: 2}
   onStart: 1
   onComplete: 0
-  questToCheck2: {fileID: 0}
-  onStart2: 0
+  questToCheck2: {fileID: 11400000, guid: 4c989f96583fdca4fa72dfffb773f021, type: 2}
+  onStart2: 2
   onComplete2: 0
 --- !u!4 &2110418847
 Transform:

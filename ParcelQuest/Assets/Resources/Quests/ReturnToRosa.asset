@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
   m_Name: ReturnToRosa
   m_EditorClassIdentifier: 
-  name: 
+  name: Return To Rosa
   description: 
   startDialogue:
     lines:

@@ -10,16 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: GoBackToPostOffice
+  m_Name: ReturnToStoreGuy
   m_EditorClassIdentifier: 
-  name: Go Back To Post Office
+  name: Return To Store Guy
   description: 
   startDialogue:
-    lines:
-    - 'Mana wrote this? Really? Wow, I would have never guessed! '
-    - But I'm happy she likes me this much. Thanks again for the help! I will go
-      and talk to Mana later.
-    - If you go back to the post office say hello to Edna from me!
+    lines: []
   inProgressDialogue:
     lines: []
   completedDialogue:
