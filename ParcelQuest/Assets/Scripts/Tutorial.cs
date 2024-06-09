@@ -5,11 +5,11 @@ using UnityEngine;
 public class Tutorial : MonoBehaviour
 {
     public GameObject tutorial;
-    AudioManager audioManager;
+   
 
     void Start()
     {
-       // audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+       
     }
 
     
@@ -17,9 +17,9 @@ public class Tutorial : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E)) 
         {
-            
+            AudioManager.i.PlaySfx(AudioId.UISelect);
             tutorial.gameObject.SetActive(false);
-           // audioManager.PlaySFX(audioManager.text);
+           
         }
     }
 }

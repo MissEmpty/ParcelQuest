@@ -17,7 +17,7 @@ public class Endscreen : MonoBehaviour
     {
         if (Input.GetKeyUp(KeyCode.E))
         {
-            audioManager.PlaySFX(audioManager.text);
+           // audioManager.PlaySFX(audioManager.text);
             StartCoroutine(_PlayGame());
         }
 

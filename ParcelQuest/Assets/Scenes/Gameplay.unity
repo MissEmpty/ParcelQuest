@@ -159,7 +159,7 @@ MonoBehaviour:
   - {fileID: 2081878925}
   - {fileID: 1503041942}
   - {fileID: 1239968651}
-  sceneMusic: {fileID: 0}
+  sceneMusic: {fileID: 8300000, guid: 098a07c9fac8ff24ebbf280880ed69e0, type: 3}
 --- !u!61 &11697343
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -313,7 +313,7 @@ MonoBehaviour:
   - {fileID: 1503041942}
   - {fileID: 11697342}
   - {fileID: 1239968651}
-  sceneMusic: {fileID: 0}
+  sceneMusic: {fileID: 8300000, guid: 1ab88ad4c4654744c80e8bf74f689a8e, type: 3}
 --- !u!61 &618600725
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -410,7 +410,7 @@ MonoBehaviour:
   - {fileID: 2081878925}
   - {fileID: 1503041942}
   - {fileID: 11697342}
-  sceneMusic: {fileID: 0}
+  sceneMusic: {fileID: 8300000, guid: 3ae728409553d164787c825c55dc0902, type: 3}
 --- !u!61 &1239968652
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -507,7 +507,7 @@ MonoBehaviour:
   - {fileID: 1239968651}
   - {fileID: 2081878925}
   - {fileID: 11697342}
-  sceneMusic: {fileID: 0}
+  sceneMusic: {fileID: 8300000, guid: 098a07c9fac8ff24ebbf280880ed69e0, type: 3}
 --- !u!61 &1503041943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -604,7 +604,7 @@ MonoBehaviour:
   - {fileID: 2081878925}
   - {fileID: 1503041942}
   - {fileID: 11697342}
-  sceneMusic: {fileID: 0}
+  sceneMusic: {fileID: 8300000, guid: fb71a8e0766e70c4eae6f79e63593cd0, type: 3}
 --- !u!61 &1512874984
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -701,7 +701,7 @@ MonoBehaviour:
   - {fileID: 1503041942}
   - {fileID: 11697342}
   - {fileID: 1239968651}
-  sceneMusic: {fileID: 0}
+  sceneMusic: {fileID: 8300000, guid: 098a07c9fac8ff24ebbf280880ed69e0, type: 3}
 --- !u!61 &2081878926
 BoxCollider2D:
   m_ObjectHideFlags: 0

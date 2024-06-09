@@ -2061,8 +2061,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questToCheck: {fileID: 11400000, guid: d6d62fc785112d54ca06c849e6c81c73, type: 2}
-  onStart: 2
-  onComplete: 0
+  onStart: 0
+  onComplete: 2
   questToCheck2: {fileID: 0}
   onStart2: 0
   onComplete2: 0

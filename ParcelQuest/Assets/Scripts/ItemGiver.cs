@@ -18,6 +18,8 @@ public class ItemGiver : MonoBehaviour
 
         used = true;
 
+        AudioManager.i.PlaySfx(AudioId.ItemObtained, pauseMusic: true);
+
         string dialogText = $"{item.Name}";
         if (count > 1)
         {

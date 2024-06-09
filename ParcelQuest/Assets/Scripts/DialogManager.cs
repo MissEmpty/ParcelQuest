@@ -9,7 +9,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] GameObject dialogBox;
     [SerializeField] Text dialogText;
     [SerializeField] int lettersPerSecond;
-   // AudioManager audioManager;
+    
 
     public event Action OnShowDialog;
     public event Action OnCloseDialog;
@@ -18,7 +18,6 @@ public class DialogManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
-        //audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
 
     }
 
@@ -31,8 +30,8 @@ public class DialogManager : MonoBehaviour
         IsShowing = true;
         dialogBox.SetActive(true);
 
-       // audioManager.PlaySFX(audioManager.text);
 
+        AudioManager.i.PlaySfx(AudioId.UISelect);
         yield return TypeDialog(text);
         if (waitForInput)
         {
@@ -41,6 +40,7 @@ public class DialogManager : MonoBehaviour
 
         if (autoClose)
         {
+           
             CloseDialog();
         }
     }
@@ -62,11 +62,11 @@ public class DialogManager : MonoBehaviour
 
         foreach (var line in dialog.Lines)
         {
-           // audioManager.PlaySFX(audioManager.text);
+            AudioManager.i.PlaySfx(AudioId.UISelect);
             yield return TypeDialog(line);
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
-
+        AudioManager.i.PlaySfx(AudioId.UISelect);
         dialogBox.SetActive(false);
         IsShowing = false;
         OnCloseDialog?.Invoke();
