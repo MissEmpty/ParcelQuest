@@ -7,18 +7,19 @@ using UnityEngine.SceneManagement;
 public class GameMenuState : State<GameController>
 {
     [SerializeField] MenuController menuController;
-  //  AudioManager audioManager;
+   
 
     public static GameMenuState i { get; private set; }
     private void Awake()
     {
         i = this;
-      //  audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        
     }
 
     GameController gc;
     public override void Enter(GameController owner)
     {
+        AudioManager.i.PlaySfx(AudioId.PauseGame);
         gc = owner;
         menuController.gameObject.SetActive(true);
         menuController.OnSelected += onMenuItemSelected;
@@ -34,6 +35,7 @@ public class GameMenuState : State<GameController>
 
     public override void Exit()
     {
+        AudioManager.i.PlaySfx(AudioId.UnpauseGame);
         menuController.gameObject.SetActive(false);
         menuController.OnSelected -= onMenuItemSelected;
         menuController.OnBack -= OnBack;
@@ -43,19 +45,19 @@ public class GameMenuState : State<GameController>
     {
         if(selection == 0) //Options
         {
-           // audioManager.PlaySFX(audioManager.text);
+            AudioManager.i.PlaySfx(AudioId.UISelect);
             gc.StateMachine.Push(OptionsState.i);
         }
 
        else if (selection == 1) //MainMenu
         {
-           // audioManager.PlaySFX(audioManager.text);
-            SceneManager.LoadScene("StartScreen");
+            AudioManager.i.PlaySfx(AudioId.UISelect);
+            // SceneManager.LoadScene("StartScreen");
         }
 
         else if (selection == 2) //Quit
         {
-          //  audioManager.PlaySFX(audioManager.text);
+            AudioManager.i.PlaySfx(AudioId.UISelect);
             Application.Quit();
         }
 
