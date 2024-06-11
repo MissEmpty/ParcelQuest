@@ -6,18 +6,18 @@ using UnityEngine.SceneManagement;
 
 public class Endscreen : MonoBehaviour
 {
-    AudioManager audioManager;
+   
 
     private void Awake()
     {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+       
     }
 
     void Update()
     {
         if (Input.GetKeyUp(KeyCode.E))
         {
-           // audioManager.PlaySFX(audioManager.text);
+           
             StartCoroutine(_PlayGame());
         }
 

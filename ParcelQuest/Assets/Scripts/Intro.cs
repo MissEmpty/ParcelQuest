@@ -7,27 +7,30 @@ using UnityEngine.SceneManagement;
 
 public class Intro : MonoBehaviour
 {
-    AudioManager audioManager;
+    Fader fader;
 
-    private void Awake()
+    private void Start()
     {
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+        fader = FindObjectOfType<Fader>();
     }
+
 
     void Update()
     {
         if (Input.GetKeyUp(KeyCode.E))
         {
-           // audioManager.PlaySFX(audioManager.text);
+           
             StartCoroutine(_PlayGame());
         }
 
-        
+       
 
     }
     private IEnumerator _PlayGame()
     {
-        yield return new WaitForSeconds(0.3f);
-        SceneManager.LoadSceneAsync("Gameplay");
+       
+        yield return new WaitForSeconds(0.2f);        
+       SceneManager.LoadSceneAsync("Gameplay");
+        
     }
 }
