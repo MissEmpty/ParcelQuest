@@ -16,11 +16,21 @@ public class Fader : MonoBehaviour
 
     public IEnumerator FadeIn(float time)
     {
-        yield return image.DOFade(1f, time).WaitForCompletion();
+        yield return image.DOFade(2f, time).WaitForCompletion();
     }
 
     public IEnumerator FadeOut(float time)
     {
         yield return image.DOFade(0f, time).WaitForCompletion();
     }
+
+    public void FadeIn()
+    {
+        StartCoroutine(FadeIn(2f));
+    }
+    public void FadeOut()
+    {
+        StartCoroutine(FadeOut(2f));
+    }
+
 }

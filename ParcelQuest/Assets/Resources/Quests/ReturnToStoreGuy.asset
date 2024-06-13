@@ -15,7 +15,8 @@ MonoBehaviour:
   name: Return To Store Guy
   description: 
   startDialogue:
-    lines: []
+    lines:
+    - Cylia should report back now.
   inProgressDialogue:
     lines: []
   completedDialogue:

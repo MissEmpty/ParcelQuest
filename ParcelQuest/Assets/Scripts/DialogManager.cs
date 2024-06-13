@@ -66,7 +66,7 @@ public class DialogManager : MonoBehaviour
             yield return TypeDialog(line);
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
-        AudioManager.i.PlaySfx(AudioId.UISelect);
+        
         dialogBox.SetActive(false);
         IsShowing = false;
         OnCloseDialog?.Invoke();

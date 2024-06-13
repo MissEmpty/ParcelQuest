@@ -16,7 +16,7 @@ MonoBehaviour:
   description: 
   startDialogue:
     lines:
-    - You where able to not only deliver the fertilizer, but also help Farmer Wells?
+    - You were able to not only deliver the fertilizer, but also help Farmer Wells?
       It's only your first day, but you are doing great!
     - 'For your next delivery, I want you to go and talk to Dorothy, the owner of
       the general store. '

@@ -17,7 +17,7 @@ MonoBehaviour:
   startDialogue:
     lines:
     - You are working for the post office, right? Maybe you could help me then.
-    - 'A shipment of goods should habe arrived two days ago, but it seems like it''s
+    - 'A shipment of goods should have arrived two days ago, but it seems like it''s
       gone missing. '
     - Could you help me and go look for it, please? I would start off in the forest,
       that's where goods usually pass through. And don't forget to check every nook
@@ -25,11 +25,11 @@ MonoBehaviour:
   inProgressDialogue:
     lines:
     - Did you find my shipment? The forest has some hidden areas, maybe you could
-      check them out too.
+      check there too.
   completedDialogue:
     lines:
-    - 'You found it! It was in a cave? That is odd indeed, I wonder what it was doing
-      there. '
+    - 'You found it! It was in a cave? That is odd indeed, I wonder how it ended
+      up in there. '
     - Thanks again for your help and say hello to Edna from me.
   requiredItem: {fileID: 11400000, guid: 6706ebb746f279545b217ef19885bf34, type: 2}
   rewardItem: {fileID: 0}

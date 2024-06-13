@@ -19,7 +19,8 @@ MonoBehaviour:
     - Thank you for the letter. My grandchildren wrote me.
     - I would like to send them my family heirloom, an old necklace, but I lost it
       somehow.
-    - Last time I had it was by the lake. Could you maybe look for it?
+    - Last time I had it was by the lake in the village. Could you maybe look for
+      it?
   inProgressDialogue:
     lines:
     - The necklace means a lot to me. I still had it when I went to the lake.

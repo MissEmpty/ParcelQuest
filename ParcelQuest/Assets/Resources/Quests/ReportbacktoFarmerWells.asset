@@ -16,11 +16,11 @@ MonoBehaviour:
   description: 
   startDialogue:
     lines:
-    - M-me, eating crops? No, you have the wrong guy!
+    - M-me, eating stolen crops? No, you have the wrong guy!
     - ...
-    - The crop in my hand? Okay, maybe that was one I borrowed. But they are just
-      so good!
-    - I won't do it anymore, but please don't report me to the farmer!
+    - The crop in my hand? Okay, maybe that was one I borrowed from the farmer. But
+      they are just so good!
+    - I won't do it anymore, but please don't report me to the Wells!
   inProgressDialogue:
     lines: []
   completedDialogue:

@@ -18,7 +18,7 @@ MonoBehaviour:
     lines:
     - Of course I can provide food for tomorrow. I was thinking of doing that anyway.
     - Some music would be nice too. Mana is quite a talented performer, so you might
-      ask her.
+      want to ask her.
   inProgressDialogue:
     lines: []
   completedDialogue:

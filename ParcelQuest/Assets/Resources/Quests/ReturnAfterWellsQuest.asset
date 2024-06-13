@@ -10,19 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: AskManaAboutLetter
+  m_Name: ReturnAfterWellsQuest
   m_EditorClassIdentifier: 
-  name: Ask Mana About Letter
+  name: 
   description: 
   startDialogue:
-    lines:
-    - You want to know if I wrote this letter? Even if the writing is good, it wasn't
-      me.
-    - But the style reminds me of Mana. She is very shy, so she never admits it,
-      but she is a great writer.
-    - She also hinted to me, that she likes someone. Go ask her, but don't be too
-      pushy.
-    - She should be in front of her house right now, all the way tot the right.
+    lines: []
   inProgressDialogue:
     lines: []
   completedDialogue:

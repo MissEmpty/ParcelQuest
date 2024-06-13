@@ -16,7 +16,7 @@ MonoBehaviour:
   description: 
   startDialogue:
     lines:
-    - You found the cause. You don't need to tell me,  I'm too scared of the thought...
+    - You found the cause? You don't need to tell me,  I'm too scared of the thought...
     - But I really hope the noises will stop now.
   inProgressDialogue:
     lines: []

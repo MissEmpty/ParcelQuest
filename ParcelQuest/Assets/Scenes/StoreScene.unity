@@ -2443,7 +2443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d5882707dcdca41ba1582d950b0cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questToCheck: {fileID: 11400000, guid: 690d100eadc7316409173869265e97d7, type: 2}
+  questToCheck: {fileID: 11400000, guid: 9a1999113c24aff42a041058d29f8eb4, type: 2}
   onStart: 2
   onComplete: 0
   questToCheck2: {fileID: 0}

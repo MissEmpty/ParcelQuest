@@ -52,7 +52,7 @@ public class GameMenuState : State<GameController>
        else if (selection == 1) //MainMenu
         {
             AudioManager.i.PlaySfx(AudioId.UISelect);
-            // SceneManager.LoadScene("StartScreen");
+            SceneManager.LoadScene("StartScreen");
         }
 
         else if (selection == 2) //Quit
