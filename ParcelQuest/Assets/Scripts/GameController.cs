@@ -13,6 +13,9 @@ public class GameController : MonoBehaviour
     [SerializeField] Camera worldCamera;
     [SerializeField] OptionsUI optionsUI;
 
+
+    public static GameController gameController;
+
     GameState state;
     GameState prevState;
 
@@ -20,6 +23,8 @@ public class GameController : MonoBehaviour
 
     public SceneDetails CurrentScene { get; private set; }
     public SceneDetails PrevScene { get; private set; }
+
+
 
     MenuController menuController;
 

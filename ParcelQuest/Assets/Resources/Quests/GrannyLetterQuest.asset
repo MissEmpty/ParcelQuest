@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GrannyLetterQuest
   m_EditorClassIdentifier: 
   name: Granny Letter Quest
-  description: 
+  description: Deliver a letter to Grannie Ann.
   startDialogue:
     lines:
     - Welcome to your first day at the local post office Cylia! I'm Edna and I will

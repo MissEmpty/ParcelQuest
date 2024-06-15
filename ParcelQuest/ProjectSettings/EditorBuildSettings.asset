@@ -36,4 +36,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Endscreen.unity
     guid: 84211de2eb633214abaf379ff858516a
   m_configObjects:
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 5dbc8ac6093f6c54e93af2c188b97bef, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 7c3a08625045ea840bc4671ded340d98, type: 2}

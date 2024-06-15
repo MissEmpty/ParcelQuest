@@ -1,32 +1,47 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+public enum QuestCategory { Quests}
 public class QuestList : MonoBehaviour, ISavable
 {
-    List<Quest> quests = new List<Quest>();
+
+   public List<Quest> quests = new List<Quest>();
+
+    QuestUI questUI;
 
     public event Action OnUpdated;
 
+    bool isCompleted;
+
     public void AddQuest(Quest quest)
     {
-        var questAdded = quests.FirstOrDefault(q => q.Base.name == quest.Base.name);
-
-        if (questAdded == null)
+       
+ 
+        if (!quests.Contains(quest))
         {
             quests.Add(quest);
+           
+            OnUpdated?.Invoke();
         }
 
-        else if (questAdded.Status != quest.Status)
-        {
-            quests.Remove(questAdded);
-            quests.Add(quest);
-        }
-
-        OnUpdated?.Invoke();
         
+    }
+    public List<Quest> Quests
+    {
+        get { return quests; }
+        set
+        {
+            quests = value;
+            OnUpdated?.Invoke();
+        }
+    }
+
+    private void Awake()
+    {
+    isCompleted = false;
     }
 
     public bool IsStarted(string questName)
@@ -38,7 +53,10 @@ public class QuestList : MonoBehaviour, ISavable
     public bool IsCompleted(string questName)
     {
         var questStatus = quests.FirstOrDefault(q => q.Base.Name == questName)?.Status;
-        return questStatus == QuestStatus.Completed;
+       
+        return questStatus == QuestStatus.Completed && isCompleted == true;
+        
+
     }
 
     public static QuestList GetQuestList()
@@ -60,4 +78,25 @@ public class QuestList : MonoBehaviour, ISavable
             OnUpdated?.Invoke();
         }
     }
+
+    public void QuestsUpdated()
+    {
+        OnUpdated?.Invoke();
+    }
+
+    public void RemoveQuest(Quest quest)
+    {
+        if (isCompleted == true)
+        {
+            quests.Remove(quest);
+
+            OnUpdated?.Invoke();
+        }
+    }
+
+
+
+
+
 }
+

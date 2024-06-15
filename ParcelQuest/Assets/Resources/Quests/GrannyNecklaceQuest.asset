@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GrannyNecklaceQuest
   m_EditorClassIdentifier: 
   name: Granny Necklace Quest
-  description: 
+  description: Look for Anns necklace by the lake.
   startDialogue:
     lines:
     - Thank you for the letter. My grandchildren wrote me.

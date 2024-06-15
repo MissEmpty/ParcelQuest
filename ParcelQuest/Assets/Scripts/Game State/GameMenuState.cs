@@ -7,11 +7,13 @@ using UnityEngine.SceneManagement;
 public class GameMenuState : State<GameController>
 {
     [SerializeField] MenuController menuController;
+    [SerializeField] QuestUI questUI;
    
 
     public static GameMenuState i { get; private set; }
     private void Awake()
     {
+        questUI.Init();
         i = this;
         
     }
@@ -19,6 +21,7 @@ public class GameMenuState : State<GameController>
     GameController gc;
     public override void Enter(GameController owner)
     {
+       
         AudioManager.i.PlaySfx(AudioId.PauseGame);
         gc = owner;
         menuController.gameObject.SetActive(true);
@@ -43,19 +46,26 @@ public class GameMenuState : State<GameController>
 
     void onMenuItemSelected(int selection)
     {
-        if(selection == 0) //Options
+        if (selection == 0) //Journal
+        {
+            AudioManager.i.PlaySfx(AudioId.UISelect);
+            questUI.SetQuestData();
+            gc.StateMachine.Push(JournalState.i);
+        }
+
+        if (selection == 1) //Options
         {
             AudioManager.i.PlaySfx(AudioId.UISelect);
             gc.StateMachine.Push(OptionsState.i);
         }
 
-       else if (selection == 1) //MainMenu
+       else if (selection == 2) //MainMenu
         {
             AudioManager.i.PlaySfx(AudioId.UISelect);
             SceneManager.LoadScene("StartScreen");
         }
 
-        else if (selection == 2) //Quit
+        else if (selection == 3) //Quit
         {
             AudioManager.i.PlaySfx(AudioId.UISelect);
             Application.Quit();
