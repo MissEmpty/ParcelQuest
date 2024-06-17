@@ -211,8 +211,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 658f1565b8cabe648ac7032ac0b14bf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questList: {fileID: 8041409537698603122}
-  quests: []
 --- !u!1 &2699556178762056657
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +920,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8293749540392075919, guid: 11f812693bc454d44ad88e9ebcb5a9dd, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1043,8 +1045,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quests: []
-  isCompleted: 0
-  isAdded: 0
 --- !u!1001 &7130597053261908555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1136,6 +1136,10 @@ PrefabInstance:
     - target: {fileID: 8117621797661949256, guid: 11f812693bc454d44ad88e9ebcb5a9dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8293749540392075919, guid: 11f812693bc454d44ad88e9ebcb5a9dd, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1381,6 +1385,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8293749540392075919, guid: 11f812693bc454d44ad88e9ebcb5a9dd, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1482,6 +1490,10 @@ PrefabInstance:
     - target: {fileID: 8117621797661949256, guid: 11f812693bc454d44ad88e9ebcb5a9dd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8293749540392075919, guid: 11f812693bc454d44ad88e9ebcb5a9dd, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

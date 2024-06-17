@@ -4,31 +4,22 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public enum QuestCategory { Quests}
 public class QuestList : MonoBehaviour, ISavable
 {
-
    public List<Quest> quests = new List<Quest>();
 
     QuestUI questUI;
 
     public event Action OnUpdated;
 
-    bool isCompleted;
-
     public void AddQuest(Quest quest)
     {
-       
- 
         if (!quests.Contains(quest))
-        {
             quests.Add(quest);
-           
-            OnUpdated?.Invoke();
-        }
 
-        
+        OnUpdated?.Invoke();
     }
+
     public List<Quest> Quests
     {
         get { return quests; }
@@ -38,12 +29,6 @@ public class QuestList : MonoBehaviour, ISavable
             OnUpdated?.Invoke();
         }
     }
-
-    private void Awake()
-    {
-    isCompleted = false;
-    }
-
     public bool IsStarted(string questName)
     {
         var questStatus = quests.FirstOrDefault(q => q.Base.Name == questName)?.Status;
@@ -53,10 +38,7 @@ public class QuestList : MonoBehaviour, ISavable
     public bool IsCompleted(string questName)
     {
         var questStatus = quests.FirstOrDefault(q => q.Base.Name == questName)?.Status;
-       
-        return questStatus == QuestStatus.Completed && isCompleted == true;
-        
-
+        return questStatus == QuestStatus.Completed;
     }
 
     public static QuestList GetQuestList()
@@ -78,7 +60,6 @@ public class QuestList : MonoBehaviour, ISavable
             OnUpdated?.Invoke();
         }
     }
-
     public void QuestsUpdated()
     {
         OnUpdated?.Invoke();
@@ -86,17 +67,12 @@ public class QuestList : MonoBehaviour, ISavable
 
     public void RemoveQuest(Quest quest)
     {
-        if (isCompleted == true)
-        {
+        if (quests.Contains(quest))
             quests.Remove(quest);
 
-            OnUpdated?.Invoke();
-        }
+        OnUpdated?.Invoke();
     }
 
-
-
-
-
 }
+
 

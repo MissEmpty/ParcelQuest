@@ -1,15 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 [System.Serializable]
 public class Quest
 {
-   
-
-   // public static QuestSlot instance;
     public QuestBase Base { get; private set; }
     public QuestStatus Status { get; private set; }
+
+    NPCController npcController;
+
+
+
+
 
     public Quest(QuestBase _base)
     {
@@ -38,7 +44,6 @@ public class Quest
 
         yield return DialogManager.Instance.ShowDialog(Base.StartDialogue);
 
-        
         var questList = QuestList.GetQuestList();
         questList.AddQuest(this);
     }
@@ -46,7 +51,8 @@ public class Quest
     public IEnumerator CompleteQuest(Transform player)
     {
         Status = QuestStatus.Completed;
-
+        var questList = QuestList.GetQuestList();
+        
         yield return DialogManager.Instance.ShowDialog(Base.CompletedDialogue);
 
         var inventory = Inventory.GetInventory();
@@ -63,8 +69,8 @@ public class Quest
             yield return DialogManager.Instance.ShowDialogText($"Cylia received {Base.RewardItem.Name}");
         }
 
-        var questList = QuestList.GetQuestList();
-      //  questList.AddQuest(this);
+        //questList.AddQuest(this);
+        questList.RemoveQuest(this);
     }
 
     public bool CanBeCompleted()
@@ -75,9 +81,16 @@ public class Quest
             if (!inventory.HasItem(Base.RequiredItem))
                 return false;
         }
+       var npcController = NPCController.GetNpcController();
+       if (npcController.questToComplete == null)
+        {
+            return false;
+        }
 
         return true;
     }
+
+ 
 }
 
 [System.Serializable]
@@ -88,5 +101,7 @@ public class QuestSaveData
 }
 
 public enum QuestStatus { None, Started, Completed }
+
+
 
 

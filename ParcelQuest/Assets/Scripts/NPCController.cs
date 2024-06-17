@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class NPCController : MonoBehaviour, Interactable
+public class NPCController : MonoBehaviour, Interactable, ISavable
 {
     [SerializeField] Dialog dialog;
 
     [Header("Quests")]
-    [SerializeField] QuestBase questToStart;
-    [SerializeField] QuestBase questToComplete;
+    [SerializeField] public QuestBase questToStart;
+    [SerializeField] public QuestBase questToComplete;
 
     [Header("Movement")]
     [SerializeField] List<Vector2> movementPattern;
@@ -22,12 +23,17 @@ public class NPCController : MonoBehaviour, Interactable
     Character character;
     ItemGiver itemGiver;
 
+
     private void Awake()
     {
         character = GetComponent<Character>();
         itemGiver = GetComponent<ItemGiver>();
 
 
+    }
+    public static NPCController GetNpcController()
+    {
+        return FindObjectOfType<Character>().GetComponent<NPCController>();
     }
 
     public IEnumerator Interact(Transform initiator)
@@ -51,7 +57,6 @@ public class NPCController : MonoBehaviour, Interactable
                 yield return itemGiver.GiveItem(initiator.GetComponent<PlayerController>());
             }
 
-
             else if (questToStart != null)
             {
                 activeQuest = new Quest(questToStart);
@@ -70,6 +75,7 @@ public class NPCController : MonoBehaviour, Interactable
                 {
                     yield return activeQuest.CompleteQuest(initiator);
                     activeQuest = null;
+
                 }
                 else
                 {
@@ -117,13 +123,42 @@ public class NPCController : MonoBehaviour, Interactable
         state = NPCState.Idle;
     }
 
+    public object CaptureState()
+    {
+        var saveData = new NPCQuestSaveData();
+        saveData.activeQuest = activeQuest?.GetSaveData();
 
+        if (questToStart != null)
+            saveData.questToStart = (new Quest(questToStart)).GetSaveData();
 
-    [System.Serializable]
+        if (questToComplete != null)
+            saveData.questToComplete = (new Quest(questToComplete)).GetSaveData();
 
+        return saveData;
+    }
 
-    public enum NPCState { Idle, Walking, Dialog }
+    public void RestoreState(object state)
+    {
+        var saveData = state as NPCQuestSaveData;
+        if (saveData != null)
+        {
+            activeQuest = (saveData.activeQuest != null) ? new Quest(saveData.activeQuest) : null;
+
+            questToStart = (saveData.questToStart != null) ? new Quest(saveData.questToStart).Base : null;
+            questToComplete = (saveData.questToComplete != null) ? new Quest(saveData.questToComplete).Base : null;
+        }
+    }
 }
+
+[System.Serializable]
+public class NPCQuestSaveData
+{
+    public QuestSaveData activeQuest;
+    public QuestSaveData questToStart;
+    public QuestSaveData questToComplete;
+}
+
+public enum NPCState { Idle, Walking, Dialog }
 
 
 
