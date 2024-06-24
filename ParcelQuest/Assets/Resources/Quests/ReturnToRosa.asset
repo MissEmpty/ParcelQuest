@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: ReturnToRosa
   m_EditorClassIdentifier: 
   name: Return To Rosa
-  description: 
+  description: Report back to Rosa
   startDialogue:
     lines:
     - Me? Performing at the festival? I don't know if I'm able to do that.
     - But writing that letter and knowing it was accepted gave me courage. Okay,
       you can tell Rosa, that I will try my best!
   inProgressDialogue:
-    lines: []
+    lines:
+    - You can tell Rosa, that I will perform tomorrow.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

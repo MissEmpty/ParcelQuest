@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: ReturnToStoreGuy
   m_EditorClassIdentifier: 
   name: Return To Store Guy
-  description: 
+  description: Tell the guy from the store, that you found the origin of the noises
   startDialogue:
     lines:
     - Cylia should report back now.
   inProgressDialogue:
     lines: []
   completedDialogue:
-    lines: []
+    lines:
+    - You found the cause? You don't need to tell me,  I'm too scared of the thought...
   requiredItem: {fileID: 0}
   rewardItem: {fileID: 0}

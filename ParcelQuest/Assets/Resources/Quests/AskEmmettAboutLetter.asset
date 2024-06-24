@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AskEmmettAboutLetter
   m_EditorClassIdentifier: 
   name: Ask Emmett About Letter
-  description: Ask Emmet if he knows anything about the letter.
+  description: Ask Emmet in the general store if he knows anything about the letter
   startDialogue:
     lines:
     - You want to know who wrote this letter? Well, I'm not sure, if I know exactly
@@ -21,7 +21,8 @@ MonoBehaviour:
     - You know, Emmett, who works at the general store is quite the poet. I think
       you should ask him about it.
   inProgressDialogue:
-    lines: []
+    lines:
+    - Emmett usually works at the general store.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

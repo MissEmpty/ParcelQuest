@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FindMother
   m_EditorClassIdentifier: 
   name: Find Mother
-  description: 
+  description: Find the mother of the little lost spirit
   startDialogue:
     lines:
     - Buhuu... Wait, you can see me? Normally others can't see us forest spirits,

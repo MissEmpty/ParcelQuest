@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ReturnToForestSpirit
   m_EditorClassIdentifier: 
   name: Return To Forest Spirit
-  description: 
+  description: Tell the little spirit, that you found his mother
   startDialogue:
     lines:
     - 'You can see me? My child is looking for me? Oh no, I totally forgot the time! '

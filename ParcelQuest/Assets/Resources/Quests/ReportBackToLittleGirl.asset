@@ -10,20 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: CupsForTavern
+  m_Name: ReportBackToLittleGirl
   m_EditorClassIdentifier: 
-  name: Cups For Tavern
-  description: Deliver some cups to Rosa at the inn
+  name: Report Back To Little Girl
+  description: Report back to the little girl
   startDialogue:
     lines:
-    - You could deliver the letter and find out who wrote it? Well, as long as it
-      doesn't bother the writer...
-    - For your last errand today, please bring this new set of cups to Rosa, the
-      innkeeper. I think she ordered them for tomorrows village festival.
+    - Cylia placed some flowers in front of the grave. She can report back to the
+      little girl now.
   inProgressDialogue:
-    lines:
-    - Bring these cups to Rosa at the inn please.
-  completedDialogue:
     lines: []
+  completedDialogue:
+    lines:
+    - 'You took care of my dad''s grave for me? '
   requiredItem: {fileID: 0}
   rewardItem: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AskManaAboutLetter
   m_EditorClassIdentifier: 
   name: Ask Mana About Letter
-  description: 
+  description: Ask Mana if she knows anything about the letter
   startDialogue:
     lines:
     - You want to know if I wrote this letter? Even if the writing is good, it wasn't
@@ -24,7 +24,8 @@ MonoBehaviour:
       pushy.
     - She should be in front of her house right now, all the way tot the right.
   inProgressDialogue:
-    lines: []
+    lines:
+    - Mana lives all the way on the right side of the village.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FindTheMissingPage
   m_EditorClassIdentifier: 
   name: Find The Missing Page
-  description: 
+  description: Find the missing page for the old wizard
   startDialogue:
     lines:
     - Good day young lady. Could you lend an old wizard like me a hand?
@@ -24,8 +24,6 @@ MonoBehaviour:
     lines:
     - Did you find the page?
   completedDialogue:
-    lines:
-    - You found it, that's the right one! It was probably stolen by my cat....anyways,
-      thank you very much. You've been a great help.
-  requiredItem: {fileID: 11400000, guid: 97b179de9f1a37a4fbf5b309b7f63b72, type: 2}
-  rewardItem: {fileID: 0}
+    lines: []
+  requiredItem: {fileID: 0}
+  rewardItem: {fileID: 11400000, guid: 97b179de9f1a37a4fbf5b309b7f63b72, type: 2}

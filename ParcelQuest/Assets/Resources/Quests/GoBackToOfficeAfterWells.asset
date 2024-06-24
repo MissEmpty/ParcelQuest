@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GoBackToOfficeAfterWells
   m_EditorClassIdentifier: 
   name: Go Back To Office After Wells
-  description: Report back to Edna in the post office.
+  description: Report back to Edna in the post office
   startDialogue:
     lines:
     - You found the thief? Who was it?!

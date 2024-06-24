@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GoBackToPostOffice
   m_EditorClassIdentifier: 
   name: Go Back To Post Office
-  description: 
+  description: Report back to Edna in the post office
   startDialogue:
     lines:
     - 'Mana wrote this? Really? Wow, I would have never guessed! '
@@ -21,7 +21,8 @@ MonoBehaviour:
       and talk to Mana later.
     - If you go back to the post office say hello to Edna from me!
   inProgressDialogue:
-    lines: []
+    lines:
+    - Thank you for helping me out.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FindWriter
   m_EditorClassIdentifier: 
   name: Find Writer
-  description: 
+  description: Ask Grannie Ann about the love letter
   startDialogue:
     lines:
     - Oh, a letter for me? Thanks!
@@ -23,7 +23,7 @@ MonoBehaviour:
     - Usually Grannie Ann knows about such things. She likes the gossip, you know?
   inProgressDialogue:
     lines:
-    - 
+    - Could you find out, who wrote this? I would start by asking Grannie Ann.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

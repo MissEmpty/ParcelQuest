@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: CreepyNoises
   m_EditorClassIdentifier: 
   name: Creepy Noises
-  description: 
+  description: Investigate the strange noises at the shrine
   startDialogue:
     lines:
     - People say there are some creepy noises coming from the shrine lately. Nobody
@@ -21,7 +21,8 @@ MonoBehaviour:
     - You seem like you're not scared of anything. Maybe you could stop by the shrine,
       if you have time. It's in the forest.
   inProgressDialogue:
-    lines: []
+    lines:
+    - The shrine is in the forest. I'm too scared to check for myself...
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

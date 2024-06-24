@@ -2383,18 +2383,18 @@ PrefabInstance:
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: questToStart
       value: 
-      objectReference: {fileID: 11400000, guid: d0c3d1a9c727d434cb5c63c4c60ec7f8, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: questToComplete
       value: 
-      objectReference: {fileID: 11400000, guid: d0c3d1a9c727d434cb5c63c4c60ec7f8, type: 2}
+      objectReference: {fileID: 11400000, guid: 9a1999113c24aff42a041058d29f8eb4, type: 2}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: I hope the noises will be quiet from now on...
+      value: I just hope the noises will be quiet from now on...
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]

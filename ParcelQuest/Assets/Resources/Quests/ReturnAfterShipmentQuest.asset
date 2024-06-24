@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: ReturnAfterShipmentQuest
   m_EditorClassIdentifier: 
   name: Return After Shipment Quest
-  description: Report back to Edna in the post office.
+  description: Report back to Edna in the post office
   startDialogue:
     lines:
     - 'You found it? Great, thank you! It was in the cave you say? '
     - That's odd...I wonder why it was there. Well, anyways, thanks for your help.
       You can tell Edna that everything was found.
   inProgressDialogue:
-    lines: []
+    lines:
+    - Thank you for your help, I'm glad everything was found.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

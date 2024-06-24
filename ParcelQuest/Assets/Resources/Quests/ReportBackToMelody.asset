@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ReportBackToMelody
   m_EditorClassIdentifier: 
   name: Report Back To Melody
-  description: 
+  description: Report back to Melody
   startDialogue:
     lines:
     - This letter? Why do you want to know?
@@ -21,7 +21,8 @@ MonoBehaviour:
     - W-wait, now you know it was from me. But if she liked it, it's okay I guess.
       You can tell her...
   inProgressDialogue:
-    lines: []
+    lines:
+    - You can tell Melody that is was from me, if she really wants to know.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

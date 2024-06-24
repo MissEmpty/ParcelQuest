@@ -12,15 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
   m_Name: RecruitMana
   m_EditorClassIdentifier: 
-  name: Reecruit Mana
-  description: 
+  name: Recruit Mana
+  description: Ask Mana to help out at the festival
   startDialogue:
     lines:
     - Of course I can provide food for tomorrow. I was thinking of doing that anyway.
     - Some music would be nice too. Mana is quite a talented performer, so you might
       want to ask her.
   inProgressDialogue:
-    lines: []
+    lines:
+    - Did you ask Mana for some musical entertainment?
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

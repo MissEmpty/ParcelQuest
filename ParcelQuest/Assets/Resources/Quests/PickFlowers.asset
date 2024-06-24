@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: PickFlowers
   m_EditorClassIdentifier: 
   name: Pick Flowers
-  description: 
+  description: First clean the grave in the forest
   startDialogue:
     lines:
     - Today is the second death anniversasy of my dad. I would like to visit his
@@ -22,7 +22,9 @@ MonoBehaviour:
       and bring them to his grave? I want him to know, that there are people who
       still think about him.
   inProgressDialogue:
-    lines: []
+    lines:
+    - Please help me pick some flowers and clean the stone. My dads grave is in the
+      forest next to the little lake.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

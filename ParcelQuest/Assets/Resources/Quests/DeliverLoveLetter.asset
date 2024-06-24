@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DeliverLoveLetter
   m_EditorClassIdentifier: 
   name: Deliver Love Letter
-  description: 
+  description: Deliver a letter to Melody at the Inn
   startDialogue:
     lines:
     - You were able to find the missing goods? That's great, I'm sure Dorothy was

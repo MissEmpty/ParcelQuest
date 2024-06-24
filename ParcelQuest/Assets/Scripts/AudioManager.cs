@@ -83,7 +83,7 @@ public class AudioManager : MonoBehaviour
     }
 }
 
-public enum AudioId { UISelect, ItemObtained, PauseGame, UnpauseGame }
+public enum AudioId { UISelect, ItemObtained, PauseGame, UnpauseGame, Text }
 
 [System.Serializable]
 public class AudioData

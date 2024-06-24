@@ -31,7 +31,7 @@ public class DialogManager : MonoBehaviour
         dialogBox.SetActive(true);
 
 
-        AudioManager.i.PlaySfx(AudioId.UISelect);
+        //AudioManager.i.PlaySfx(AudioId.UISelect);
         yield return TypeDialog(text);
         if (waitForInput)
         {
@@ -52,7 +52,7 @@ public class DialogManager : MonoBehaviour
         OnCloseDialog?.Invoke();
     }
 
-    public IEnumerator ShowDialog(Dialog dialog)
+    public IEnumerator ShowDialog(Dialog dialog) 
     {
         yield return new WaitForEndOfFrame();
 
@@ -62,7 +62,7 @@ public class DialogManager : MonoBehaviour
 
         foreach (var line in dialog.Lines)
         {
-            AudioManager.i.PlaySfx(AudioId.UISelect);
+            //AudioManager.i.PlaySfx(AudioId.UISelect);
             yield return TypeDialog(line);
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.E));
         }
@@ -82,8 +82,10 @@ public class DialogManager : MonoBehaviour
         dialogText.text = "";
         foreach (var letter in line.ToCharArray())
         {
+            AudioManager.i.PlaySfx(AudioId.Text);
+            
             dialogText.text += letter;
-            yield return new WaitForSeconds(1f / lettersPerSecond);
+            yield return new WaitForSeconds(1.3f / lettersPerSecond);
         }
     }
 }

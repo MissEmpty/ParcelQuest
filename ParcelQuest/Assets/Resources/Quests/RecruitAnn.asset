@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RecruitAnn
   m_EditorClassIdentifier: 
   name: Recruit Ann
-  description: 
+  description: Ask Grannie Ann to help out at the festival
   startDialogue:
     lines:
     - Are these the special cups for the festival? Thank you, I'm relieved they're
@@ -23,7 +23,8 @@ MonoBehaviour:
     - Maybe you could start with asking Grannie Ann if she can tell her famous stories.
       That would be great!
   inProgressDialogue:
-    lines: []
+    lines:
+    - Could you find some people? Maybe try asking Grannie Ann first.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}
