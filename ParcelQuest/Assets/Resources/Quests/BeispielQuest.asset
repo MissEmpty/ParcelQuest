@@ -10,20 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0765a54d2783e0845b3385f0d39ff16f, type: 3}
-  m_Name: GoBackToOfficeAfterWells
+  m_Name: BeispielQuest
   m_EditorClassIdentifier: 
-  name: Go Back To Office After Wells
-  description: Report back to Edna in the post office.
+  name: 
+  description: 
   startDialogue:
     lines:
-    - You found the thief? Who was it?!
-    - It seems you don't want to expose them... If you can guarantee that the theft
-      will stop it's fine I guess.
-    - You can tell Edna, that you did your job.
+    - Give necklace
   inProgressDialogue:
-    lines:
-    - You can tell Edna, that you did your job.
+    lines: []
   completedDialogue:
     lines: []
-  requiredItem: {fileID: 0}
+  requiredItem: {fileID: 11400000, guid: 55805455519b27f43b9785f6146f1447, type: 2}
   rewardItem: {fileID: 0}

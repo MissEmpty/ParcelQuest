@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LookForShipment
   m_EditorClassIdentifier: 
   name: Look For Shipment
-  description: 
+  description: Look for Dorothy's missing shipment
   startDialogue:
     lines:
     - You are working for the post office, right? Maybe you could help me then.
@@ -27,9 +27,6 @@ MonoBehaviour:
     - Did you find my shipment? The forest has some hidden areas, maybe you could
       check there too.
   completedDialogue:
-    lines:
-    - 'You found it! It was in a cave? That is odd indeed, I wonder how it ended
-      up in there. '
-    - Thanks again for your help and say hello to Edna from me.
-  requiredItem: {fileID: 11400000, guid: 6706ebb746f279545b217ef19885bf34, type: 2}
-  rewardItem: {fileID: 0}
+    lines: []
+  requiredItem: {fileID: 0}
+  rewardItem: {fileID: 11400000, guid: 6706ebb746f279545b217ef19885bf34, type: 2}

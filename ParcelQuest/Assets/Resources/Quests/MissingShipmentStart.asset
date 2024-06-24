@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MissingShipmentStart
   m_EditorClassIdentifier: 
   name: Missing Shipment Start
-  description: 
+  description: Talk to Dorothy in the general store
   startDialogue:
     lines:
     - You were able to not only deliver the fertilizer, but also help Farmer Wells?
@@ -23,7 +23,9 @@ MonoBehaviour:
     - If you don't know already, the store is located at the bottom half of the village,
       to the right of the stairs.
   inProgressDialogue:
-    lines: []
+    lines:
+    - Did you talk to Dorothy yet? She owns the general store, next to the lower
+      stairs in the village.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

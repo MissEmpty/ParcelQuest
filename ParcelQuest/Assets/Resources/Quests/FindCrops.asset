@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FindCrops
   m_EditorClassIdentifier: 
   name: Find Crops
-  description: 
+  description: Find the crop thief in the forest
   startDialogue:
     lines:
     - Thank you for delivering my fertilizer. But it won't help me much, if someone

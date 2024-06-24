@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6371d344c7ff84aa6a902049e858da, type: 3}
   m_Name: Necklace
   m_EditorClassIdentifier: 
-  name: Cylia received an old necklace.
+  name: an old necklace
   description: Necklace
   icon: {fileID: 75952992, guid: efdb2c3f489e6f343a0f5d448c00edda, type: 3}

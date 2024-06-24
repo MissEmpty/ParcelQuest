@@ -22,7 +22,9 @@ MonoBehaviour:
       mornings, she is usually around her house, on the left to our office. Send
       her my greetings!
   inProgressDialogue:
-    lines: []
+    lines:
+    - Did you talk to Ann yet? Maybe you could even give her a hand if she needs
+      something else.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

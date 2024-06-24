@@ -26,8 +26,7 @@ MonoBehaviour:
     - The necklace means a lot to me. I still had it when I went to the lake.
   completedDialogue:
     lines:
-    - Ah, you found it! Thank you so much for helping me.
-    - You are not done for the day, are you? I'm sure your next errand is already
-      waiting for you in the office.
-  requiredItem: {fileID: 11400000, guid: 55805455519b27f43b9785f6146f1447, type: 2}
-  rewardItem: {fileID: 0}
+    - An old necklace? I recently found one in the lake, while fishing.
+    - You can have it. It's not much use to me anyway.
+  requiredItem: {fileID: 0}
+  rewardItem: {fileID: 11400000, guid: 55805455519b27f43b9785f6146f1447, type: 2}

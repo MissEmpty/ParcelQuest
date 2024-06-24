@@ -5,11 +5,12 @@ using UnityEngine;
 
 public class NPCController : MonoBehaviour, Interactable, ISavable
 {
-    [SerializeField] Dialog dialog;
+    [SerializeField] public Dialog dialog;
 
     [Header("Quests")]
     [SerializeField] public QuestBase questToStart;
     [SerializeField] public QuestBase questToComplete;
+
 
     [Header("Movement")]
     [SerializeField] List<Vector2> movementPattern;
@@ -35,6 +36,10 @@ public class NPCController : MonoBehaviour, Interactable, ISavable
     {
         return FindObjectOfType<Character>().GetComponent<NPCController>();
     }
+
+
+
+
 
     public IEnumerator Interact(Transform initiator)
     {
@@ -67,6 +72,7 @@ public class NPCController : MonoBehaviour, Interactable, ISavable
                 {
                     yield return activeQuest.CompleteQuest(initiator);
                     activeQuest = null;
+                    questToComplete = null;
                 }
             }
             else if (activeQuest != null)
@@ -75,12 +81,17 @@ public class NPCController : MonoBehaviour, Interactable, ISavable
                 {
                     yield return activeQuest.CompleteQuest(initiator);
                     activeQuest = null;
-
                 }
-                else
+                else if (!activeQuest.CanBeCompleted() && questToComplete != null ||!activeQuest.CanBeCompleted() && questToStart != null)
                 {
                     yield return DialogManager.Instance.ShowDialog(activeQuest.Base.InProgressDialogue);
+                    Debug.Log("ShowProgressDialog");
+                }  
+                else if (!activeQuest.CanBeCompleted() && questToComplete == null || !activeQuest.CanBeCompleted() && questToStart == null)
+                {
+                    yield return DialogManager.Instance.ShowDialog(dialog);
                 }
+
             }
 
             else
@@ -92,6 +103,8 @@ public class NPCController : MonoBehaviour, Interactable, ISavable
             state = NPCState.Idle;
         }
     }
+
+
 
     private void Update()
     {

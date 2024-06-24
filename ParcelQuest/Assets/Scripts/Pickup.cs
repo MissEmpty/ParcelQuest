@@ -22,7 +22,7 @@ public class Pickup : MonoBehaviour, Interactable, ISavable
           
           
             AudioManager.i.PlaySfx(AudioId.ItemObtained, pauseMusic: true);
-            yield return DialogManager.Instance.ShowDialogText($"{item.Name}");
+            yield return DialogManager.Instance.ShowDialogText($"Cylia found {item.Name}.");
         }
     }
 

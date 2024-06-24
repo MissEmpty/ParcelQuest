@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics.Eventing.Reader;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.TextCore.Text;
@@ -14,8 +13,7 @@ public class Quest
     NPCController npcController;
 
 
-
-
+   public bool canBeCompleted;
 
     public Quest(QuestBase _base)
     {
@@ -43,18 +41,27 @@ public class Quest
         Status = QuestStatus.Started;
 
         yield return DialogManager.Instance.ShowDialog(Base.StartDialogue);
-
+        
         var questList = QuestList.GetQuestList();
         questList.AddQuest(this);
+
+      
     }
 
     public IEnumerator CompleteQuest(Transform player)
     {
-        Status = QuestStatus.Completed;
         var questList = QuestList.GetQuestList();
-        
-        yield return DialogManager.Instance.ShowDialog(Base.CompletedDialogue);
 
+        questList.AddQuest(this);
+
+        Status = QuestStatus.Completed;
+
+
+        Debug.Log("CompleteQuestAngekommen");
+      
+
+        yield return DialogManager.Instance.ShowDialog(Base.CompletedDialogue);
+       
         var inventory = Inventory.GetInventory();
         if (Base.RequiredItem != null)
         {
@@ -65,32 +72,47 @@ public class Quest
         {
             inventory.AddItem(Base.RewardItem);
 
-           
-            yield return DialogManager.Instance.ShowDialogText($"Cylia received {Base.RewardItem.Name}");
+            AudioManager.i.PlaySfx(AudioId.ItemObtained, pauseMusic: true);
+            yield return DialogManager.Instance.ShowDialogText($"Cylia received {Base.RewardItem.Name}.");
+            
         }
 
-        //questList.AddQuest(this);
+
+      
         questList.RemoveQuest(this);
+
     }
 
     public bool CanBeCompleted()
     {
+      
         var inventory = Inventory.GetInventory();
+       
         if (Base.RequiredItem != null)
         {
             if (!inventory.HasItem(Base.RequiredItem))
+            {
+                canBeCompleted = false;
                 return false;
-        }
-       var npcController = NPCController.GetNpcController();
-       if (npcController.questToComplete == null)
-        {
-            return false;
-        }
+                
+            }
 
-        return true;
+            else
+            {
+                return true;
+            }
+                 
+        }
+        return false;
+       
     }
 
- 
+    public override bool Equals(object other)
+    {
+        return (other as Quest).Base.name == Base.name;
+    }
+
+
 }
 
 [System.Serializable]

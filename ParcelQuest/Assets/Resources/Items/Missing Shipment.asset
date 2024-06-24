@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e6371d344c7ff84aa6a902049e858da, type: 3}
   m_Name: Missing Shipment
   m_EditorClassIdentifier: 
-  name: Cylia found the missing shipment.
+  name: the missing shipment
   description: Missing Shipment
   icon: {fileID: -1497803362, guid: 08ffe2a2c10d8cb4aa0279ddf7e3adf3, type: 3}

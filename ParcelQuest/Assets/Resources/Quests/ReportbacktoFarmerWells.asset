@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ReportbacktoFarmerWells
   m_EditorClassIdentifier: 
   name: Reportbackto Farmer Wells
-  description: 
+  description: Report back to Famer Wells
   startDialogue:
     lines:
     - M-me, eating stolen crops? No, you have the wrong guy!
@@ -22,7 +22,8 @@ MonoBehaviour:
       they are just so good!
     - I won't do it anymore, but please don't report me to the Wells!
   inProgressDialogue:
-    lines: []
+    lines:
+    - I promise I will behave from now on!
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

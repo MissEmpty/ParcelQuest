@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemGiver : MonoBehaviour
+public class ItemGiver : MonoBehaviour, ISavable
 {
     [SerializeField] ItemBase item;
     [SerializeField] int count = 1;
@@ -20,18 +20,25 @@ public class ItemGiver : MonoBehaviour
 
         AudioManager.i.PlaySfx(AudioId.ItemObtained, pauseMusic: true);
 
-        string dialogText = $"{item.Name}";
+        string dialogText = $"Cylia received {item.Name}.";
         if (count > 1)
-        {
-            dialogText = $"{item.Name}";
-        }
+            dialogText = $"Cylia received {count} {item.Name}s.";
 
-            yield return DialogManager.Instance.ShowDialogText(dialogText);
-        
+        yield return DialogManager.Instance.ShowDialogText(dialogText);
     }
 
     public bool CanBeGiven()
     {
         return item != null && count > 0 && !used;
+    }
+
+    public object CaptureState()
+    {
+        return used;
+    }
+
+    public void RestoreState(object state)
+    {
+        used = (bool)state;
     }
 }

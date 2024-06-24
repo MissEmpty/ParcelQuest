@@ -28,7 +28,7 @@ public class QuestObject : MonoBehaviour
     }
 
     public void UpdateObjectStatus()
-    {
+    {  
         if (onStart != ObjectActions.DoNothing && questList.IsStarted(questToCheck.Name))
         {
             foreach (Transform child in transform)

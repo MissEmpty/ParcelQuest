@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: TalktoFarmerWellsQuest
   m_EditorClassIdentifier: 
   name: Talkto Farmer Wells Quest
-  description: 
+  description: Deliver fertilizer to Famer Wells
   startDialogue:
     lines:
     - I'm glad your first delivery went well! For your next one, please bring this
       fertilizer to Famer Wells. He ordered it last week.
     - You can find his farm next to the inn, at the bottom left of our village.
   inProgressDialogue:
-    lines: []
+    lines:
+    - Did you find Wells? His farm is right next to the inn, at the bottom half of
+      the village.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

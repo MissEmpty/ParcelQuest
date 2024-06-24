@@ -67,8 +67,16 @@ public class QuestList : MonoBehaviour, ISavable
 
     public void RemoveQuest(Quest quest)
     {
+  
+        foreach (Quest questi in quests)
+        {
+          
+        }
+
         if (quests.Contains(quest))
-            quests.Remove(quest);
+        { quests.Remove(quest);
+                  
+        }
 
         OnUpdated?.Invoke();
     }
