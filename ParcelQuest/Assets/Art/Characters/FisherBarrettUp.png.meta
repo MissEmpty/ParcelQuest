@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c7f8526a67657640ba44cc72c18b47f
+guid: a99087897e585194c90b5eea0826f1e1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CyliaLeft_0
+      name: FisherBarrettUp_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 29
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68a4c648a8e52a24cb05b0027df75ba6
-      internalID: -1715585537
+      spriteID: 4a01ba8dcf148e44a8c7f8bcfbc8fe3f
+      internalID: -911176027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaLeft_1
+      name: FisherBarrettUp_1
       rect:
         serializedVersion: 2
         x: 29
         y: 0
         width: 29
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdb3848a5f58685469add95f8c710f18
-      internalID: -1008640852
+      spriteID: 3ba03d78dfeea43429b6083d3edf09b4
+      internalID: 222811091
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaLeft_2
+      name: FisherBarrettUp_2
       rect:
         serializedVersion: 2
         x: 58
         y: 0
         width: 29
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6b2ade0fa755f745bb65a615c1e01ac
-      internalID: 662962773
+      spriteID: 32a8641973c3ec3479b0115e184b9560
+      internalID: -485905670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaLeft_3
+      name: FisherBarrettUp_3
       rect:
         serializedVersion: 2
         x: 87
         y: 0
         width: 29
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2d4ccf83dc07ce4cb7eee29152aa122
-      internalID: -205034942
+      spriteID: ec1bddaecc513e84dbff7f13c2f24203
+      internalID: -921195473
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CyliaLeft_0: -1715585537
-      CyliaLeft_1: -1008640852
-      CyliaLeft_2: 662962773
-      CyliaLeft_3: -205034942
+      FisherBarrettUp_0: -911176027
+      FisherBarrettUp_1: 222811091
+      FisherBarrettUp_2: -485905670
+      FisherBarrettUp_3: -921195473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
