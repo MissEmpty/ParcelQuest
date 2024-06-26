@@ -85,7 +85,7 @@ public class DialogManager : MonoBehaviour
             AudioManager.i.PlaySfx(AudioId.Text);
             
             dialogText.text += letter;
-            yield return new WaitForSeconds(1.3f / lettersPerSecond);
+            yield return new WaitForSeconds(1.2f / lettersPerSecond);
         }
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7892287edc2a73749be4903dc7ee3ffd
+guid: 853cba3314339c7419a7fcffe0097133
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CyliaRight_0
+      name: AnnUp_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb734eea64967d44b0b49bc4cd8fdcc
-      internalID: 172392271
+      spriteID: eac6d933f16390948bc293e693d9b10c
+      internalID: -674283760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaRight_1
+      name: AnnUp_1
       rect:
         serializedVersion: 2
         x: 29
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 261a6ec67dbfb4c46a528437b30dc525
-      internalID: 1998009624
+      spriteID: 097b9efc521417642a669065bfb1b42f
+      internalID: -1154434356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaRight_2
+      name: AnnUp_2
       rect:
         serializedVersion: 2
         x: 58
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8651b9f1cdd1b904783783bf9e3eae06
-      internalID: -1692868530
+      spriteID: f8dd71b84d0664744b0e1a974f6f147d
+      internalID: -2093675545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaRight_3
+      name: AnnUp_3
       rect:
         serializedVersion: 2
         x: 87
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f756914ec36cad248a4aff5fae4d41af
-      internalID: -1087106619
+      spriteID: 202dbf999e56cb24683411b09dcb46eb
+      internalID: -2088617916
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CyliaRight_0: 172392271
-      CyliaRight_1: 1998009624
-      CyliaRight_2: -1692868530
-      CyliaRight_3: -1087106619
+      AnnUp_0: -674283760
+      AnnUp_1: -1154434356
+      AnnUp_2: -2093675545
+      AnnUp_3: -2088617916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
