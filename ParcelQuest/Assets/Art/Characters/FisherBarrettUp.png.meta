@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a01ba8dcf148e44a8c7f8bcfbc8fe3f
-      internalID: -911176027
+      spriteID: 02665683524ae4e4c9a1d0b0048ff07d
+      internalID: -996869639
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ba03d78dfeea43429b6083d3edf09b4
-      internalID: 222811091
+      spriteID: 2004b232b8a8ea248bde937ace6383a9
+      internalID: 1647018573
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32a8641973c3ec3479b0115e184b9560
-      internalID: -485905670
+      spriteID: 9299347bd13f0ba4e889d39e4cb5aaf1
+      internalID: -1782037270
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec1bddaecc513e84dbff7f13c2f24203
-      internalID: -921195473
+      spriteID: b643d180fb4712246abfc5364b0e5e7a
+      internalID: 1085919370
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FisherBarrettUp_0: -911176027
-      FisherBarrettUp_1: 222811091
-      FisherBarrettUp_2: -485905670
-      FisherBarrettUp_3: -921195473
+      FisherBarrettUp_0: -996869639
+      FisherBarrettUp_1: 1647018573
+      FisherBarrettUp_2: -1782037270
+      FisherBarrettUp_3: 1085919370
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

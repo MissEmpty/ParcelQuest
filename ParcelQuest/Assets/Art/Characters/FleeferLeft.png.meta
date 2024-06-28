@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b67d0ca82046d442bd1b5589f7c9320
+guid: 11b5446d2059dd644af5909660893c61
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CyliaDown_0
+      name: FleeferLeft_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddabbdbf7921fb142909948ed4f9a7a1
-      internalID: -777094215
+      spriteID: cae78a6c2f3bd1a419b8d28d8cdcd643
+      internalID: -1336070541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaDown_1
+      name: FleeferLeft_1
       rect:
         serializedVersion: 2
         x: 29
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e85ca46056a6e4b9d058087c039869
-      internalID: -1968597379
+      spriteID: 0482bfda13b1e6a48ba5af2fd03152d6
+      internalID: -1795253172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaDown_2
+      name: FleeferLeft_2
       rect:
         serializedVersion: 2
         x: 58
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 652ecf4d6c0be72479cdbeaa6a88cedd
-      internalID: 817158725
+      spriteID: a1967ae017b6f4044b90e341d8924598
+      internalID: 1983912026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaDown_3
+      name: FleeferLeft_3
       rect:
         serializedVersion: 2
         x: 87
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3af7eed8dc11d749b7fdd7292152447
-      internalID: -1099129226
+      spriteID: 03a479486d777b24ebc59456ca59dafc
+      internalID: -314459332
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CyliaDown_0: -777094215
-      CyliaDown_1: -1968597379
-      CyliaDown_2: 817158725
-      CyliaDown_3: -1099129226
+      FleeferLeft_0: -1336070541
+      FleeferLeft_1: -1795253172
+      FleeferLeft_2: 1983912026
+      FleeferLeft_3: -314459332
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

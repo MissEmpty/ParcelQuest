@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b67d0ca82046d442bd1b5589f7c9320
+guid: b4ca89259f6ee154ea6ec1ff6135ea0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CyliaDown_0
+      name: SpiritMomRight_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddabbdbf7921fb142909948ed4f9a7a1
-      internalID: -777094215
+      spriteID: 64da190614a02534b8636a28d03dd673
+      internalID: -1192165403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaDown_1
+      name: SpiritMomRight_1
       rect:
         serializedVersion: 2
-        x: 29
+        x: 32
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70e85ca46056a6e4b9d058087c039869
-      internalID: -1968597379
+      spriteID: 31cce33d8541c304b9b45c510d4881f4
+      internalID: -707557176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaDown_2
+      name: SpiritMomRight_2
       rect:
         serializedVersion: 2
-        x: 58
+        x: 64
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 652ecf4d6c0be72479cdbeaa6a88cedd
-      internalID: 817158725
+      spriteID: 72cc44aa22947404198a9c26e6fd6283
+      internalID: -842991638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaDown_3
+      name: SpiritMomRight_3
       rect:
         serializedVersion: 2
-        x: 87
+        x: 96
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3af7eed8dc11d749b7fdd7292152447
-      internalID: -1099129226
+      spriteID: 9bc19f3fa0e623f4c9d72afc3835907b
+      internalID: 1282306864
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CyliaDown_0: -777094215
-      CyliaDown_1: -1968597379
-      CyliaDown_2: 817158725
-      CyliaDown_3: -1099129226
+      SpiritMomRight_0: -1192165403
+      SpiritMomRight_1: -707557176
+      SpiritMomRight_2: -842991638
+      SpiritMomRight_3: 1282306864
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
