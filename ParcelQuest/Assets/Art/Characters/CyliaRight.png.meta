@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03b264c146895094fb563774d4af6830
-      internalID: -983003982
+      spriteID: c3823605a8d9c254bb778cc5ac95b3c8
+      internalID: -1398481733
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d67ba15c81b18f4a9c9d08c358a4ee4
-      internalID: 1581859767
+      spriteID: 8978ccbd6eb020b47b4768a0ecc37449
+      internalID: 1615518195
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d67e1bc8f4f9894aaaed2338c689e2b
-      internalID: -1456355140
+      spriteID: 4b7c7f06172928b4a8176dee69a90f62
+      internalID: -94294647
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d213b16414f80454b816692bfcda769d
-      internalID: -197786040
+      spriteID: e504d0e1d7ef90a4590a422decc78e30
+      internalID: 797541548
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CyliaRight_0: -983003982
-      CyliaRight_1: 1581859767
-      CyliaRight_2: -1456355140
-      CyliaRight_3: -197786040
+      CyliaRight_0: -1398481733
+      CyliaRight_1: 1615518195
+      CyliaRight_2: -94294647
+      CyliaRight_3: 797541548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

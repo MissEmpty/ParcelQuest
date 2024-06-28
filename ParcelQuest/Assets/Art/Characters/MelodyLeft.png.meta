@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a32ab8955e070b4db19d3727515892d
+guid: 630bed55808b3cc4bb7d275d8f514ef3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CyliaUp_0
+      name: MelodyLeft_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f35e536a27cb158478848fc519efd36b
-      internalID: 1816395987
+      spriteID: 7f3490cabd3a7e545ada01affdb94178
+      internalID: 1469150190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaUp_1
+      name: MelodyLeft_1
       rect:
         serializedVersion: 2
         x: 29
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faf843a023ffb8a45a1edc0e3a155993
-      internalID: 739508347
+      spriteID: 41b5a33fcd08c8246a2f78634ccdbdbd
+      internalID: -1300954366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaUp_2
+      name: MelodyLeft_2
       rect:
         serializedVersion: 2
         x: 58
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f724dac6d38fe8e4c91677b1673f6c5e
-      internalID: -1906281068
+      spriteID: 5bacd411fbc53f445a0c262ae5fcdd81
+      internalID: -429511895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaUp_3
+      name: MelodyLeft_3
       rect:
         serializedVersion: 2
         x: 87
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a43c0b2c35d01841a9d91d6230c1221
-      internalID: -2127585922
+      spriteID: cda09fbb655535c41b2393061e16e16c
+      internalID: -1594618426
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CyliaUp_0: 1816395987
-      CyliaUp_1: 739508347
-      CyliaUp_2: -1906281068
-      CyliaUp_3: -2127585922
+      MelodyLeft_0: 1469150190
+      MelodyLeft_1: -1300954366
+      MelodyLeft_2: -429511895
+      MelodyLeft_3: -1594618426
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
