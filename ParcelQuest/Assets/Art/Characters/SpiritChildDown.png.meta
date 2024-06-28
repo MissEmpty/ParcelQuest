@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7a32ab8955e070b4db19d3727515892d
+guid: 5869b568c2529714bbebe14ddb23a61c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CyliaUp_0
+      name: SpiritChildDown_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2870a70af93e2dc4d81ceefe52be0433
-      internalID: -1936484359
+      spriteID: 6cd9bb19642279d4e90f5146495c6c60
+      internalID: -1234968278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaUp_1
+      name: SpiritChildDown_1
       rect:
         serializedVersion: 2
-        x: 29
+        x: 32
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fbe23ada07db1e498fd2355e6dd8994
-      internalID: -385636911
+      spriteID: c91b86e9f506b8d4198bef8f7e68f817
+      internalID: -1717180759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaUp_2
+      name: SpiritChildDown_2
       rect:
         serializedVersion: 2
-        x: 58
+        x: 64
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc246f1c74f8c4c47a6d9b8e7162ffb5
-      internalID: -2020535404
+      spriteID: 34148cd01db01184eafa42ac6c23bb13
+      internalID: -1579999466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CyliaUp_3
+      name: SpiritChildDown_3
       rect:
         serializedVersion: 2
-        x: 87
+        x: 96
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5b8c773869a7f4479dfeebeb7ce3e01
-      internalID: 786217910
+      spriteID: 0392d8bfaafaa354781d83b136aeca20
+      internalID: -300288910
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      CyliaUp_0: -1936484359
-      CyliaUp_1: -385636911
-      CyliaUp_2: -2020535404
-      CyliaUp_3: 786217910
+      SpiritChildDown_0: -1234968278
+      SpiritChildDown_1: -1717180759
+      SpiritChildDown_2: -1579999466
+      SpiritChildDown_3: -300288910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
