@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 85196fec378c76e42ba8ef8d6cc93cae
+guid: 1b2f0ad0202e2f547aae70580a9cb595
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DorothyRight_0
+      name: FarmerWellsLeft_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 29
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c1dd78382ffc7f448c8567060777346
-      internalID: 608097136
+      spriteID: f62452c8b1dd8df4cb9f532c6cd0cc23
+      internalID: -889373998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DorothyRight_1
+      name: FarmerWellsLeft_1
       rect:
         serializedVersion: 2
         x: 29
         y: 0
         width: 29
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c562c09bad654a649a64dd2c1a38ac59
-      internalID: 1631326026
+      spriteID: c190c4ed892466247a38ad82d49d307a
+      internalID: 748740650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DorothyRight_2
+      name: FarmerWellsLeft_2
       rect:
         serializedVersion: 2
         x: 58
         y: 0
         width: 29
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7449d055c051eac489ff90109e3e4fe5
-      internalID: -297263106
+      spriteID: 788f15926495c5f4db9fa5452ba64615
+      internalID: -152608570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DorothyRight_3
+      name: FarmerWellsLeft_3
       rect:
         serializedVersion: 2
         x: 87
         y: 0
         width: 29
-        height: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c79e0bb967ba8a42909baab03c6ddb8
-      internalID: 1860531618
+      spriteID: 01330c6d995c149498965fb6676fdcdd
+      internalID: -65870854
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DorothyRight_0: 608097136
-      DorothyRight_1: 1631326026
-      DorothyRight_2: -297263106
-      DorothyRight_3: 1860531618
+      FarmerWellsLeft_0: -889373998
+      FarmerWellsLeft_1: 748740650
+      FarmerWellsLeft_2: -152608570
+      FarmerWellsLeft_3: -65870854
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b168ed91de2bb5f4195785fd57ccb932
-      internalID: 777741482
+      spriteID: e63c0235a2605434394fe826b053e0af
+      internalID: -1393813736
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5b9eeb9254f51b4b9eafde11510629b
-      internalID: 964809909
+      spriteID: 567316e4f91bb55449d5903e6e5e370d
+      internalID: 750517996
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6675546fb431e4f4a9fe65ef28462669
-      internalID: -896201475
+      spriteID: 5c8aa2857ad54df4ba4955e0a0bc3564
+      internalID: 214382091
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea8b4d6e6fef8b94b841feae51ae725c
-      internalID: 1693588666
+      spriteID: df4c4269f34368a488c38fe8a94d4095
+      internalID: -1209669644
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DorothyLeft_0: 777741482
-      DorothyLeft_1: 964809909
-      DorothyLeft_2: -896201475
-      DorothyLeft_3: 1693588666
+      DorothyLeft_0: -1393813736
+      DorothyLeft_1: 750517996
+      DorothyLeft_2: 214382091
+      DorothyLeft_3: -1209669644
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

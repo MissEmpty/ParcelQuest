@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 85196fec378c76e42ba8ef8d6cc93cae
+guid: cf8751e956f878343b3644f25cfc66a0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DorothyRight_0
+      name: LittleGirlLeft_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c1dd78382ffc7f448c8567060777346
-      internalID: 608097136
+      spriteID: 81193c8d3058263448eb44adf03c7ff9
+      internalID: 1093611056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DorothyRight_1
+      name: LittleGirlLeft_1
       rect:
         serializedVersion: 2
-        x: 29
+        x: 32
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c562c09bad654a649a64dd2c1a38ac59
-      internalID: 1631326026
+      spriteID: 6acbc304bc7501041b19ad8f577e1756
+      internalID: -1523967131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DorothyRight_2
+      name: LittleGirlLeft_2
       rect:
         serializedVersion: 2
-        x: 58
+        x: 64
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7449d055c051eac489ff90109e3e4fe5
-      internalID: -297263106
+      spriteID: ee604b0c9130ffb41bfbbfdf7e712fb0
+      internalID: 1977218221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DorothyRight_3
+      name: LittleGirlLeft_3
       rect:
         serializedVersion: 2
-        x: 87
+        x: 96
         y: 0
-        width: 29
-        height: 29
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c79e0bb967ba8a42909baab03c6ddb8
-      internalID: 1860531618
+      spriteID: 482d7c590d0c94c45ba10924f3e53d93
+      internalID: -160809326
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DorothyRight_0: 608097136
-      DorothyRight_1: 1631326026
-      DorothyRight_2: -297263106
-      DorothyRight_3: 1860531618
+      LittleGirlLeft_0: 1093611056
+      LittleGirlLeft_1: -1523967131
+      LittleGirlLeft_2: 1977218221
+      LittleGirlLeft_3: -160809326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
