@@ -124,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 106c9ae9c77badb49b5f590c088fccfa
-      internalID: 92481204
+      spriteID: d1ece55b4f2572e4e8a1e076243b03d7
+      internalID: 2013428665
       vertices: []
       indices: 
       edges: []
@@ -145,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b117b417280aaf47994969d70d2c2ad
-      internalID: 150067442
+      spriteID: 442270ca66bf30f439bf454879a53689
+      internalID: -441329358
       vertices: []
       indices: 
       edges: []
@@ -166,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cac55f6514b0c874d89fae7f4958a996
-      internalID: -1811200688
+      spriteID: 574fd5faf18e3594296e158e82c47d74
+      internalID: -469803236
       vertices: []
       indices: 
       edges: []
@@ -187,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2701650d5d08be549913b00b8ce11276
-      internalID: -2078507574
+      spriteID: 1abcd2795d48d48409c401f1b34dc5b0
+      internalID: 1678586067
       vertices: []
       indices: 
       edges: []
@@ -204,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      FarmerWellsDown_0: 92481204
-      FarmerWellsDown_1: 150067442
-      FarmerWellsDown_2: -1811200688
-      FarmerWellsDown_3: -2078507574
+      FarmerWellsDown_0: 2013428665
+      FarmerWellsDown_1: -441329358
+      FarmerWellsDown_2: -469803236
+      FarmerWellsDown_3: 1678586067
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
