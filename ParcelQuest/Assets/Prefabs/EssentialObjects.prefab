@@ -697,7 +697,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2726383766813957397, guid: a59c794e9d360be48b6d9d36af813e40, type: 3}
       propertyPath: m_Size.x
-      value: 0.8017573
+      value: 0.735878
       objectReference: {fileID: 0}
     - target: {fileID: 2726383766813957397, guid: a59c794e9d360be48b6d9d36af813e40, type: 3}
       propertyPath: m_Size.y
@@ -705,7 +705,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2726383766813957397, guid: a59c794e9d360be48b6d9d36af813e40, type: 3}
       propertyPath: m_Offset.x
-      value: -0.026679724
+      value: 0.001613617
       objectReference: {fileID: 0}
     - target: {fileID: 2726383766813957397, guid: a59c794e9d360be48b6d9d36af813e40, type: 3}
       propertyPath: m_Offset.y
@@ -909,8 +909,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AssetsPPU: 32
-  m_RefResolutionX: 320
-  m_RefResolutionY: 180
+  m_RefResolutionX: 426
+  m_RefResolutionY: 240
   m_UpscaleRT: 0
   m_PixelSnapping: 0
   m_CropFrameX: 0
