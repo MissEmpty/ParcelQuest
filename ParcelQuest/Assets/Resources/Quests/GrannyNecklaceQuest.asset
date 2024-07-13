@@ -16,17 +16,19 @@ MonoBehaviour:
   description: Look for Anns necklace by the lake.
   startDialogue:
     lines:
-    - Thank you for the letter. My grandchildren wrote me.
-    - I would like to send them my family heirloom, an old necklace, but I lost it
-      somehow.
-    - Last time I had it was by the lake in the village. Could you maybe look for
-      it?
+    - 'Grannie Ann: Thank you for the letter. My great-grandchildren from the city
+      have written to me. I miss them very much and hope they come to visit me soon.'
+    - Then I would like to leave them my heirloom. It is an old necklace that has
+      been in my family for generations.
+    - I still had it yesterday, but I couldn't find it this morning. Could you help
+      me find it? I think I last had it at the lake, to the right of the post office.
   inProgressDialogue:
     lines:
-    - The necklace means a lot to me. I still had it when I went to the lake.
+    - 'Grannie Ann: The necklace means a lot to me. I still had it with me when I
+      went to the lake.'
   completedDialogue:
     lines:
-    - An old necklace? I recently found one in the lake, while fishing.
-    - You can have it. It's not much use to me anyway.
+    - 'Fisher Barrett: An old necklace? I found one the other day while I was fishing.
+      You are welcome to have it. I can''t do much with it anyway.'
   requiredItem: {fileID: 0}
   rewardItem: {fileID: 11400000, guid: 55805455519b27f43b9785f6146f1447, type: 2}

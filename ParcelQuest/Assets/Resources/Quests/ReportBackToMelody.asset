@@ -16,13 +16,15 @@ MonoBehaviour:
   description: Report back to Melody
   startDialogue:
     lines:
-    - This letter? Why do you want to know?
+    - 'Mana: Why do you want to know who wrote this letter? Melody asked for it?
+      D-did she like it? I''m so relieved...'
     - Melody asked? D-did she like the letter? I'm so glad she did...
-    - W-wait, now you know it was from me. But if she liked it, it's okay I guess.
-      You can tell her...
+    - W-wait, now you already know it's from me. But if Melody liked the letter,
+      I guess it's okay.
+    - You can tell her. I'm so nervous...
   inProgressDialogue:
     lines:
-    - You can tell Melody that is was from me, if she really wants to know.
+    - 'Mana: If Melody really liked the letter, you can tell her it''s from me...'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

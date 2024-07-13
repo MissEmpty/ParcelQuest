@@ -16,16 +16,15 @@ MonoBehaviour:
   description: Look for Dorothy's missing shipment
   startDialogue:
     lines:
-    - You are working for the post office, right? Maybe you could help me then.
-    - 'A shipment of goods should have arrived two days ago, but it seems like it''s
-      gone missing. '
-    - Could you help me and go look for it, please? I would start off in the forest,
-      that's where goods usually pass through. And don't forget to check every nook
-      and cranny!
+    - 'Dorothy: You work for the post office, right? Maybe you can help me. My last
+      order from the city never arrived.'
+    - he usual route to our village leads through the forest which has many hidden
+      corners. Could you check there for me?
+    - I would be infinitely grateful!
   inProgressDialogue:
     lines:
-    - Did you find my shipment? The forest has some hidden areas, maybe you could
-      check there too.
+    - 'Dorothy: Did you find the shipment? There are many hidden corners in the forest.'
+    - Maybe you could have a look there.
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

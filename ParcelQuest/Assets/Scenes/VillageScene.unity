@@ -770,9 +770,21 @@ PrefabInstance:
       value: Here you go.
       objectReference: {fileID: 0}
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: defaultDirection
       value: 1
@@ -796,19 +808,19 @@ PrefabInstance:
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -2034794415, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[2]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -470035777, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -50318708, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 
@@ -911,7 +923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: I'm really looking forward to tomorrows festival.
+      value: 'Grannie Ann: I''m looking forward to helping out tomorrow!'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]
@@ -1677,9 +1689,21 @@ PrefabInstance:
       value: Here you go.
       objectReference: {fileID: 0}
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: defaultDirection
       value: 1
@@ -1703,19 +1727,19 @@ PrefabInstance:
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -2034794415, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[2]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -470035777, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -50318708, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 
@@ -1818,7 +1842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: It's so nice to see youngsters like you running around.
+      value: 'Grannie Ann: It''s so nice to see youngsters like you running around.'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]
@@ -2646,7 +2670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: H-hello...
+      value: 'Mana: H-hello...'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -3093,7 +3117,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Did you find out anything? The tracks lead  to the forest entrance.
+      value: 'Farmer Wells: Were you able to find out anything? The tracks lead into
+        the forest to the left of the village.'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3174,7 +3199,7 @@ PrefabInstance:
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
@@ -3202,19 +3227,19 @@ PrefabInstance:
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -2034794415, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[2]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -470035777, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -50318708, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 
@@ -3317,7 +3342,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: You are starting your first day as a deliverer today, right?
+      value: 'Grannie Ann: Your first day as a deliverer starts today, right? Good
+        luck!'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]
@@ -7340,7 +7366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Someone stole my harvest again...
+      value: 'Farmer Wells: Someone stole my harvest again...'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10916,7 +10942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Thanks again for helping me out.
+      value: 'Farmer Wells: Thanks for helping me out I guess.'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]
@@ -23121,7 +23147,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 34
-      m_TileSpriteIndex: 26
+      m_TileSpriteIndex: 30
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -27187,7 +27213,7 @@ Tilemap:
       - {fileID: 701282340, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 692879878, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 16, y: -7, z: 0}
@@ -27209,7 +27235,7 @@ Tilemap:
       - {fileID: 701282340, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 692879878, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 18, y: -7, z: 0}
@@ -27220,7 +27246,7 @@ Tilemap:
       - {fileID: 701282340, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 692879878, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 19, y: -7, z: 0}
@@ -27506,7 +27532,7 @@ Tilemap:
       - {fileID: 701282340, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 692879878, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 23, y: -5, z: 0}
@@ -27594,7 +27620,7 @@ Tilemap:
       - {fileID: 701282340, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 692879878, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 20, y: -4, z: 0}
@@ -27638,7 +27664,7 @@ Tilemap:
       - {fileID: 701282340, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 692879878, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 24, y: -4, z: 0}
@@ -27660,7 +27686,7 @@ Tilemap:
       - {fileID: 701282340, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 692879878, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
-      m_AnimationSpeed: 3
+      m_AnimationSpeed: 3.0000002
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 15, y: -3, z: 0}
@@ -28036,16 +28062,16 @@ Tilemap:
     m_Data: {fileID: 2090680874}
   - m_RefCount: 7
     m_Data: {fileID: 2103952097, guid: 0cc837273ae47004e8d45dcbbef9eb06, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1375975735, guid: 4a2870d433bef4a49b42d3cac3b85cd3, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: 1766628003, guid: 4a2870d433bef4a49b42d3cac3b85cd3, type: 3}
   - m_RefCount: 934
     m_Data: {fileID: 21300000, guid: fd7e7d8b71e1c7340beba723a87e5f4a, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -1719955620, guid: 4a2870d433bef4a49b42d3cac3b85cd3, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -1375975735, guid: 4a2870d433bef4a49b42d3cac3b85cd3, type: 3}
   - m_RefCount: 66
     m_Data: {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
   - m_RefCount: 1
@@ -30237,7 +30263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Thanks to you I'm sure my dad is very happy now.
+      value: Thanks to you I'm sure my dad is very happy now!
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -32527,7 +32553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Do you need something?
+      value: 'Fisher Barrett: Do you need something?'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].x
@@ -45392,9 +45418,21 @@ PrefabInstance:
       value: Here you go.
       objectReference: {fileID: 0}
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: defaultDirection
       value: 1
@@ -45418,19 +45456,19 @@ PrefabInstance:
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -2034794415, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[2]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -470035777, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -50318708, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 
@@ -45533,7 +45571,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: I'm happy to help out tomorrow. Maybe ask Wells to do the same.
+      value: 'Grannie Ann: I''m looking forward to helping out tomorrow! Please don''t
+        forget to ask Wells about the food.'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]
@@ -46686,7 +46725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: I'm so glad Melody liked my letter...
+      value: 'Mana: I''m so happy Melody liked my letter...'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -50326,9 +50365,21 @@ PrefabInstance:
       value: Here you go.
       objectReference: {fileID: 0}
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 711110424102690121, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
       value: 0.90625
@@ -50360,19 +50411,19 @@ PrefabInstance:
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -2034794415, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[2]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -470035777, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -50318708, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 
@@ -50475,7 +50526,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: It's so nice to see youngsters like you running around.
+      value: 'Grannie Ann: It''s so nice to see youngsters like you running around.'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]
@@ -52602,7 +52653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: If I try  to combine these ingredients...*mumble mumble*
+      value: 'Wizard Gale: If I try  to combine these ingredients...*mumble mumble*'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -52646,9 +52697,21 @@ PrefabInstance:
       value: Here you go.
       objectReference: {fileID: 0}
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: defaultDirection
       value: 1
@@ -52672,19 +52735,19 @@ PrefabInstance:
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -2034794415, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[2]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -470035777, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -50318708, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 
@@ -52787,7 +52850,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Emmett usually works at the general store.
+      value: 'Grannie Ann: Emmett usually works at the general store. Now I''m also
+        curious!'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]
@@ -53997,7 +54061,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 64
-      m_TileSpriteIndex: 68
+      m_TileSpriteIndex: 75
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -55347,7 +55411,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 62
-      m_TileSpriteIndex: 64
+      m_TileSpriteIndex: 68
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -56466,8 +56530,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 1265769124}
-  - m_RefCount: 1
-    m_Data: {fileID: 1612444248, guid: 2b0c0414af8081c49a79ac5f423f38d2, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: 21300000, guid: da07d324335567444a9e1d32d25a4805, type: 3}
   - m_RefCount: 3
@@ -56475,7 +56539,7 @@ Tilemap:
   - m_RefCount: 4
     m_Data: {fileID: 21300000, guid: fb00955897407814a976fd08ed56d78a, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -939109658, guid: 3808b8b9a61903543bdb416d44f08fc1, type: 3}
+    m_Data: {fileID: 1612444248, guid: 2b0c0414af8081c49a79ac5f423f38d2, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 1147225179, guid: 0cc837273ae47004e8d45dcbbef9eb06, type: 3}
   - m_RefCount: 1
@@ -56488,8 +56552,8 @@ Tilemap:
     m_Data: {fileID: 1521314722, guid: 4a2870d433bef4a49b42d3cac3b85cd3, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 106961097, guid: 4a2870d433bef4a49b42d3cac3b85cd3, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -939109658, guid: 3808b8b9a61903543bdb416d44f08fc1, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: -434001899, guid: a5bd997c87bdf1d4596855e64e9dc344, type: 3}
   - m_RefCount: 3
@@ -61208,9 +61272,21 @@ PrefabInstance:
       value: Here you go.
       objectReference: {fileID: 0}
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: defaultDirection
       value: 1
@@ -61234,19 +61310,19 @@ PrefabInstance:
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -2034794415, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[2]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -470035777, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -50318708, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 
@@ -61349,7 +61425,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: The necklace means a lot to me. I still had it when I went to the lake.
+      value: 'Grannie Ann: The necklace means a lot to me. I still had it when I
+        went to the lake.'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[1]

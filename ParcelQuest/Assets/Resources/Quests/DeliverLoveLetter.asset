@@ -16,11 +16,12 @@ MonoBehaviour:
   description: Deliver a letter to Melody at the Inn
   startDialogue:
     lines:
-    - You were able to find the missing goods? That's great, I'm sure Dorothy was
-      very pleased.
-    - For your next errand, I want you to deliver this letter to Melody. You can
-      find the young woman usually in the inn, where she helps out the keeper.
-    - You know where the inn is located? It's right next to Wells farm.
+    - 'Edna: You were able to find the missing goods? That''s great! I''m sure Dorothy
+      was pleased.'
+    - Your next errand is to deliver this letter and melody. She usually helps out
+      at the inn at this time of day.
+    - 'Do you know where the inn is located? It''s just to the left of Wells farm.
+      You can''t miss it. '
   inProgressDialogue:
     lines: []
   completedDialogue:

@@ -13,16 +13,17 @@ MonoBehaviour:
   m_Name: FindMother
   m_EditorClassIdentifier: 
   name: Find Mother
-  description: Find the mother of the little lost spirit
+  description: Find the mother of the lost little spirit
   startDialogue:
     lines:
-    - Buhuu... Wait, you can see me? Normally others can't see us forest spirits,
-      so you must be special.
-    - Maybe you can help me then? I lost my mother and can't find her anymore. I've
-      been left crying here all alone...
-    - Could you look for her? I think I can still sense her presence around here...
+    - 'Little Spirit: Buhuu...wait, can you see me? Normally, other beings wouldn''t
+      be able to perceive me. Perhaps you can help me then?'
+    - My mom left me here and told me to wait for her. But she's been gone for a
+      while now, and I'm afraid to go look for her.
+    - ' Could you look for her? I still feel her presence nearby...'
   inProgressDialogue:
-    lines: []
+    lines:
+    - 'Little Spririt: My mom should still be around somewhere... Please help me!'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

@@ -17,7 +17,7 @@ MonoBehaviour:
   startDialogue:
     lines:
     - Cylia placed some flowers in front of the grave. She can report back to the
-      little girl now.
+      little Livia now.
   inProgressDialogue:
     lines: []
   completedDialogue:

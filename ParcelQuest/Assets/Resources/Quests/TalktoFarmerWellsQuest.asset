@@ -16,13 +16,16 @@ MonoBehaviour:
   description: Deliver fertilizer to Famer Wells
   startDialogue:
     lines:
-    - I'm glad your first delivery went well! For your next one, please bring this
-      fertilizer to Famer Wells. He ordered it last week.
-    - You can find his farm next to the inn, at the bottom left of our village.
+    - 'Edna: Were you able to deliver the letter! You also helped Ann with something
+      else? That''s great! '
+    - 'I''m delighted at how committed you are. Your next job is to deliver this
+      fertilizer to Farmer Wells. '
+    - His farm is at the bottom of the village, right next to the Inn. Give him my
+      regards!
   inProgressDialogue:
     lines:
-    - Did you find Wells? His farm is right next to the inn, at the bottom half of
-      the village.
+    - 'Edna: Have you spoken to Wells yet? His farm is at the bottom of the village,
+      right next to the inn.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

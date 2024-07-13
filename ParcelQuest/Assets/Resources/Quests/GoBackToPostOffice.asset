@@ -16,13 +16,14 @@ MonoBehaviour:
   description: Report back to Edna in the post office
   startDialogue:
     lines:
-    - 'Mana wrote this? Really? Wow, I would have never guessed! '
-    - But I'm happy she likes me this much. Thanks again for the help! I will go
-      and talk to Mana later.
-    - If you go back to the post office say hello to Edna from me!
+    - 'Melody: Mana wrote this? Really? I would never have thought of that. But I''m
+      glad it was her.'
+    - I've always liked her... Thanks again for your help! I'll be on my way to talk
+      to Mana.
+    - When you go back to the post office, say hello to Edna for me!
   inProgressDialogue:
     lines:
-    - Thank you for helping me out.
+    - 'Melody: Thanks again for your help. The letter made me really happy!'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

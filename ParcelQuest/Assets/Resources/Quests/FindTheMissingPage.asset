@@ -16,13 +16,14 @@ MonoBehaviour:
   description: Find the missing page for the old wizard
   startDialogue:
     lines:
-    - Good day young lady. Could you lend an old wizard like me a hand?
-    - A very important page vanished from one of my spellbooks. It contains a mighty
-      spell, so I need to get it back.
-    - I would be very thankful if you could find it and bring it back to me.
+    - 'Wizard Gale: Good day, young lady! Would you help an old wizard in need? An
+      important page is missing from my spellbook.'
+    - I can't imagine what someone with ill intentions might do with it. Would you
+      help me look for it?
+    - My legs don't carry me very far anymore...
   inProgressDialogue:
     lines:
-    - Did you find the page?
+    - Were you able to find the page? I'm worried it might fall into the wrong hands...
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

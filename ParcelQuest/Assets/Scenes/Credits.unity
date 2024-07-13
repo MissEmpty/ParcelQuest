@@ -123,6 +123,91 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &46099790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 46099791}
+  - component: {fileID: 46099793}
+  - component: {fileID: 46099792}
+  m_Layer: 5
+  m_Name: Text (Legacy) (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &46099791
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46099790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 386197525}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -98, y: -231}
+  m_SizeDelta: {x: 514.5, y: 593.8}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &46099792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46099790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: e9b92fc95a4262e439183ca14663a5ee, type: 3}
+    m_FontSize: 50
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 5
+    m_MaxSize: 114
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Game by Klara Herler
+
+
+    Music by ELV Games
+
+
+    Sounds by Leohpaz'
+--- !u!222 &46099793
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46099790}
+  m_CullTransparentMesh: 1
 --- !u!1 &57068703
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,7 +302,6 @@ GameObject:
   - component: {fileID: 163532638}
   - component: {fileID: 163532640}
   - component: {fileID: 163532639}
-  - component: {fileID: 163532641}
   m_Layer: 5
   m_Name: Text (Legacy)
   m_TagString: Untagged
@@ -241,7 +325,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -98, y: -22}
+  m_AnchoredPosition: {x: -98, y: -77}
   m_SizeDelta: {x: 514.5, y: 593.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &163532639
@@ -266,7 +350,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: e9b92fc95a4262e439183ca14663a5ee, type: 3}
-    m_FontSize: 43
+    m_FontSize: 66
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 5
@@ -277,11 +361,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rosa was right, the village festival the next day was a complete success.
-    Cylia could take a day off and enjoy herself. Nevertheless, she was already looking
-    forward to delivering more letters and helping the villagers the next day. While
-    she listened to Mana's music and nibbled on a crop from Farmer Wells, she thought
-    that she couldn't imagine a more beautiful place.
+  m_Text: Thank you for playing!
 --- !u!222 &163532640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -290,22 +370,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163532637}
   m_CullTransparentMesh: 1
---- !u!114 &163532641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 163532637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e71eecf9377e704bbde207d24dc8497, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delayBeforeStart: 0
-  timeBtwChars: 0.04
-  leadingChar: 
-  leadingCharBeforeDelay: 0
 --- !u!1 &386197521
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,6 +467,7 @@ RectTransform:
   m_Children:
   - {fileID: 1356107440}
   - {fileID: 163532638}
+  - {fileID: 46099791}
   - {fileID: 2089975549}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -420,7 +485,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 386197521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62785d73f72ce64438efbb9dbe7be450, type: 3}
+  m_Script: {fileID: 11500000, guid: 7db13dbad727f3f4a9ba7201f7e40835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1356107439
@@ -568,7 +633,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press E To Skip
+  m_Text: Press E To Leave
 --- !u!222 &2089975551
 CanvasRenderer:
   m_ObjectHideFlags: 0

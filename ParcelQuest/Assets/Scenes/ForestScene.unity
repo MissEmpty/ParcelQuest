@@ -1741,7 +1741,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: My mother should still be around somewhere... Please help me!
+      value: 'Little Spririt: My mom should still be around somewhere... Please help
+        me!'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -4372,8 +4373,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: The grave stone is clean and there are some flowers placed in front
-        of it.
+      value: The headstone is clean and there are some flowers placed in front of
+        it.
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -11696,7 +11697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialog:
     lines:
-    - There is some strange paper sheet on the ground.
+    - There is some strange paper on the ground.
   questToStart: {fileID: 0}
   questToComplete: {fileID: 0}
   movementPattern: []
@@ -18039,7 +18040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Buhuhu....buhuu..
+      value: Buhuhu...buhuu...
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -24628,7 +24629,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: This forest is the ideal place for me. Nobody bothers me here.
+      value: 'Fleefer: This forest is the ideal place to relax. Nobody can disturb
+        me here.'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].x
@@ -28937,7 +28939,7 @@ MonoBehaviour:
         waitForCompletion: 1
         dialog:
           lines:
-          - Did you find my mom?
+          - 'Little Spirit: Did you find my mom?'
     - rid: 5318429154261073922
       type: {class: TeleportObjectAction, ns: , asm: Assembly-CSharp}
       data:
@@ -28971,9 +28973,12 @@ MonoBehaviour:
         waitForCompletion: 1
         dialog:
           lines:
-          - 'Mom there you are! Can we go home now? '
-          - Of course we can my child! Apologies for staying out too long. Thank
-            you little elf, I'm glad you found my son. Farewell!
+          - 'Little Spirit: There you are, Mom! Where have you been all this time?
+            Anyway, can we finally go home?'
+          - 'Spirit Mom: Of course we can, my son! I''m really sorry I was gone for
+            so long!'
+          - This forest is such a good place for haunting. Thank you, little elf!
+            I'm glad you found my son. Goodbye!
     - rid: 5318429154261073926
       type: {class: MoveActorAction, ns: , asm: Assembly-CSharp}
       data:
@@ -34758,7 +34763,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: I will return to my little one right away.
+      value: 'Spirit Mom: I will return to my little one right away!'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -55169,7 +55174,7 @@ PrefabInstance:
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 86acaeed18033624991a33da9cedbf14, type: 3}
+      objectReference: {fileID: 21300000, guid: 309ffe1d328649340a52592ef8506921, type: 3}
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
@@ -70370,7 +70375,7 @@ Tilemap:
       - {fileID: 701282340, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 692879878, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
       - {fileID: 1946769399, guid: c4a1ec64ae30cb141a3213ea19251426, type: 3}
-      m_AnimationSpeed: 3.0000002
+      m_AnimationSpeed: 3
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -13, y: 10, z: 0}

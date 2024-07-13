@@ -16,13 +16,14 @@ MonoBehaviour:
   description: Ask Emmet in the general store if he knows anything about the letter
   startDialogue:
     lines:
-    - You want to know who wrote this letter? Well, I'm not sure, if I know exactly
-      who it was, but the writing is quite poetic.
-    - You know, Emmett, who works at the general store is quite the poet. I think
-      you should ask him about it.
+    - 'Grannie Ann: You want to know who wrote this letter? Hm, I''m not quite sure,
+      but the style is quite poetic.'
+    - ' Do you know Emmett, who works at the general store? He''s quite a poet and
+      likes to write stories.'
+    - Sometimes we even write together. Anyway, you could ask him about it.
   inProgressDialogue:
     lines:
-    - Emmett usually works at the general store.
+    - 'Grannie Ann: Emmett usually works at the general store. Now I''m also curious!'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

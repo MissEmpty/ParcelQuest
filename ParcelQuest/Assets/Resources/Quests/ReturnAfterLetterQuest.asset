@@ -16,11 +16,13 @@ MonoBehaviour:
   description: Report back to Edna in the post office
   startDialogue:
     lines:
-    - You found it! Thank you, that means a lot to me!
-    - Since you helped me you can return to the post office.
+    - 'Grannie Ann: You have found them! Thank you very much, that means a lot to
+      me. Now I have something to leave my family when they return to the city. '
+    - Since you helped me you can return to the post office. Say hello to Edna!
   inProgressDialogue:
     lines:
-    - Thank you again for the help. You can return to Edna now.
+    - 'Grannie Ann: Thank you again for the help. You can return to Edna and tell
+      her how you helped me!'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

@@ -16,12 +16,13 @@ MonoBehaviour:
   description: Report back to Rosa
   startDialogue:
     lines:
-    - Me? Performing at the festival? I don't know if I'm able to do that.
-    - But writing that letter and knowing it was accepted gave me courage. Okay,
-      you can tell Rosa, that I will try my best!
+    - 'Mana: I''m supposed to play music at the festival tomorrow? I''m not sure
+      if I''ll be too nervous for that.'
+    - But writing the letter and knowing it was accepted has given me courage. Alright,
+      you can let Rosa know that I'll be performing tomorrow!
   inProgressDialogue:
     lines:
-    - You can tell Rosa, that I will perform tomorrow.
+    - 'Mana: You can let Rosa know that I''ll be performing tomorrow!'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

@@ -16,15 +16,17 @@ MonoBehaviour:
   description: First clean the grave in the forest
   startDialogue:
     lines:
-    - Today is the second death anniversasy of my dad. I would like to visit his
-      grave in the forest, but I'm not allowed to enter the area...
-    - Could you maybe clean the headstone a bit and after that pick some flowers
-      and bring them to his grave? I want him to know, that there are people who
-      still think about him.
+    - 'Livia: Today is the second anniversary of my father''s death. I would love
+      to visit his grave and tidy it up a bit, but I''m not allowed to enter the
+      forest.'
+    - Mom thinks it's dangerous there. Could you clean the headstone for me and lay
+      some flowers?
+    - I think my father would really appreciate it! The grave is next to the small
+      pond in the northern part of the forest.
   inProgressDialogue:
     lines:
-    - Please help me pick some flowers and clean the stone. My dads grave is in the
-      forest next to the little lake.
+    - 'Livia: The grave is next to the small pond in the northern part of the forest.
+      Please help me clean it and lay some flowers.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

@@ -16,13 +16,15 @@ MonoBehaviour:
   description: Deliver some cups to Rosa at the inn
   startDialogue:
     lines:
-    - You could deliver the letter and find out who wrote it? Well, as long as it
-      doesn't bother the writer...
-    - For your last errand today, please bring this new set of cups to Rosa, the
-      innkeeper. I think she ordered them for tomorrows village festival.
+    - 'Edna: You were able to deliver the letter and found out who wrote it? As long
+      as it''s okay for all parties, that''s fine.'
+    - 'Your last errand for today is to deliver this set of cups to Rosa. She is
+      the owner of the inn and has ordered them for tomorrow''s village festival.  '
+    - She has a lot to do, so please give her a hand if she needs help. Good luck!
   inProgressDialogue:
     lines:
-    - Bring these cups to Rosa at the inn please.
+    - 'Edna: Rosa needs these cups for tomorrow''s festival. Please deliver them
+      in good time.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

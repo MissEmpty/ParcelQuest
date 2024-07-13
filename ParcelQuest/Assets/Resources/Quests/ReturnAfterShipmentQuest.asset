@@ -16,12 +16,12 @@ MonoBehaviour:
   description: Report back to Edna in the post office
   startDialogue:
     lines:
-    - 'You found it? Great, thank you! It was in the cave you say? '
-    - That's odd...I wonder why it was there. Well, anyways, thanks for your help.
-      You can tell Edna that everything was found.
+    - 'Dorothy: You found it? Great, thank you! It was in the cave you say? '
+    - That's odd...I wonder how it got there. Maybe this raccoon did....well, anyways,
+      thanks for your help. You can tell Edna that everything was found!
   inProgressDialogue:
     lines:
-    - Thank you for your help, I'm glad everything was found.
+    - 'Dorothy: Thank you for your help! I''m glad everything was found.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

@@ -16,15 +16,17 @@ MonoBehaviour:
   description: Ask Grannie Ann to help out at the festival
   startDialogue:
     lines:
-    - Are these the special cups for the festival? Thank you, I'm relieved they're
-      finally here.
-    - I'm having my hands full with preparations, so could you maybe help me? I still
-      need some people to perform and provide food.
-    - Maybe you could start with asking Grannie Ann if she can tell her famous stories.
-      That would be great!
+    - 'Rosa: Are these the cups for tomorrow''s village festival? Thank you very
+      much for the quick delivery!'
+    - ' have my hands full with the preparations at the moment, but I still need
+      people to help out tomorrow. It would be a great help if you could ask around
+      a bit!'
+    - You could start with Grannie Ann and ask if she could tell one of her famous
+      stories.
   inProgressDialogue:
     lines:
-    - Could you find some people? Maybe try asking Grannie Ann first.
+    - 'Rosa: Could you round up a few people? Maybe start with Grannie Ann and ask
+      her to tell one of her stories.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

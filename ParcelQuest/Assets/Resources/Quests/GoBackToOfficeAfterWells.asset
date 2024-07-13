@@ -16,13 +16,14 @@ MonoBehaviour:
   description: Report back to Edna in the post office
   startDialogue:
     lines:
-    - You found the thief? Who was it?!
-    - It seems you don't want to expose them... If you can guarantee that the theft
-      will stop it's fine I guess.
-    - You can tell Edna, that you did your job.
+    - 'Farmer Wells: You found the thief? Who was it?! If I catch him, he''s in for
+      a treat.'
+    - You promised not to expose him? As long as he never does it again, that's fine
+      by me.
+    - You can tell Edna you did your job.
   inProgressDialogue:
     lines:
-    - You can tell Edna, that you did your job.
+    - 'Farmer Wells: You can tell Edna you did your job.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

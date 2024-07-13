@@ -16,7 +16,7 @@ MonoBehaviour:
   description: Find some flowers for the grave
   startDialogue:
     lines:
-    - Cylia cleaned the grave stone. Next are the flowers.
+    - Cylia cleaned the headstone. Next are the flowers.
   inProgressDialogue:
     lines:
     - The grave still needs some flowers.

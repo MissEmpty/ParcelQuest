@@ -16,14 +16,17 @@ MonoBehaviour:
   description: Ask Grannie Ann about the love letter
   startDialogue:
     lines:
-    - Oh, a letter for me? Thanks!
+    - 'Melody: Oh, a letter for me? Thanks!'
     - ....
-    - Oh my, that is written beautifully! Such a heartfelt confession. I must know
-      who wrote this. Could you ask around for me?
-    - Usually Grannie Ann knows about such things. She likes the gossip, you know?
+    - Oh my, this is beautifully written! I have never received such a heartfelt
+      confession. I need to know who wrote this letter.
+    - Could you ask around a bit, if you have time? Grannie Ann usually knows a lot
+      of rumors.
+    - You should ask her first!
   inProgressDialogue:
     lines:
-    - Could you find out, who wrote this? I would start by asking Grannie Ann.
+    - 'Melody: Were you able to find out who wrote me the letter? I would ask Grannie
+      Ann first. She knows the people in the village very well.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

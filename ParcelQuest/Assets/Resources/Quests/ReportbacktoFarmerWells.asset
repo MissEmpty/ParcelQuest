@@ -16,14 +16,15 @@ MonoBehaviour:
   description: Report back to Famer Wells
   startDialogue:
     lines:
-    - M-me, eating stolen crops? No, you have the wrong guy!
+    - 'Fleefer: M-me eating stolen crops? No, you have the wrong raccoon!'
     - ...
     - The crop in my hand? Okay, maybe that was one I borrowed from the farmer. But
-      they are just so good!
-    - I won't do it anymore, but please don't report me to the Wells!
+      they are just too good!
+    - I won't do it anymore, but please don't report me to Wells! He can get quite
+      scary...
   inProgressDialogue:
     lines:
-    - I promise I will behave from now on!
+    - 'Fleefer: I promise I will behave from now on!'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

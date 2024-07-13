@@ -21,6 +21,7 @@ MonoBehaviour:
     lines: []
   completedDialogue:
     lines:
-    - You found the cause? You don't need to tell me,  I'm too scared of the thought...
+    - 'Arthur: Did you find the cause? Wait, don''t tell me! It must have been extremely
+      scary, I don''t want to hear about it.'
   requiredItem: {fileID: 0}
   rewardItem: {fileID: 0}

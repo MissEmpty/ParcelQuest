@@ -1987,8 +1987,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Could you find out, who wrote this? I would start by asking Grannie
-        Ann.
+      value: 'Melody: Were you able to find out who wrote me the letter? I would
+        ask Grannie Ann first. She knows the people in the village very well.'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].x
@@ -2351,8 +2351,10 @@ MonoBehaviour:
         waitForCompletion: 1
         dialog:
           lines:
-          - Everyone is going to help out tomorrow? That's great, thank you so much
-            for your help!
+          - 'Rosa: Everyone is going to help out tomorrow? That''s wonderful! Thank
+            you so much for your help!'
+          - I'm sure the festival will be a great success tomorrow, and that's thanks
+            to you.
     - rid: 5318429128086257670
       type: {class: TeleportObjectAction, ns: , asm: Assembly-CSharp}
       data:
@@ -2422,10 +2424,9 @@ MonoBehaviour:
         waitForCompletion: 1
         dialog:
           lines:
-          - All of us need to thank you for today! We are glad that we have such
-            a reliable mailcarrier.
-          - Tomorrows town festival is going to be great and a big part of that is
-            thanks to you. Enjoy your free day and let's all have a good time!
+          - 'Grannie Ann:  We all want to thank you for your help today! We are really
+            glad to have such a reliable mail carrier.'
+          - ' Now you can relax and enjoy the festival tomorrow. You deserve it!'
     - rid: 5318429128086257678
       type: {class: FadeInAction, ns: , asm: Assembly-CSharp}
       data:
@@ -2672,7 +2673,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Thank you for helping me out.
+      value: 'Melody: Thanks again for your help. The letter made me really happy!'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].x
@@ -2897,7 +2898,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
@@ -5192,7 +5193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: Welcome to the local inn! Can I bring you something to drink?
+      value: 'Rosa: Welcome to the local inn! Would you like a drink?'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -6403,7 +6404,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     textureRect:
       serializedVersion: 2
@@ -6612,7 +6613,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: In my free time I like to help out here at the inn.
+      value: 'Melody: I like to help out here in my free time. The pay is good and
+        the owner is nice.'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].x
@@ -6749,9 +6751,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.x
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_Size.y
+      value: 0.90625
+      objectReference: {fileID: 0}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+    - target: {fileID: 654730589993720601, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: defaultDirection
       value: 0
@@ -6775,19 +6789,19 @@ PrefabInstance:
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[0]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[1]
       value: 
-      objectReference: {fileID: -2034794415, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: 348096628, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[2]
       value: 
-      objectReference: {fileID: -882567693, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -1532711949, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkDownSprites.Array.data[3]
       value: 
-      objectReference: {fileID: -470035777, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
+      objectReference: {fileID: -50318708, guid: 6f2c195a24fb79f48b81d79ec159e85d, type: 3}
     - target: {fileID: 3386834482710869289, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: walkLeftSprites.Array.data[0]
       value: 

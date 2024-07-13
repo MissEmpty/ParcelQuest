@@ -16,16 +16,18 @@ MonoBehaviour:
   description: Ask Mana if she knows anything about the letter
   startDialogue:
     lines:
-    - You want to know if I wrote this letter? Even if the writing is good, it wasn't
-      me.
-    - But the style reminds me of Mana. She is very shy, so she never admits it,
-      but she is a great writer.
+    - 'Emmett: You want to know if I wrote this letter? Even if it is very well written,
+      it wasn''t me.'
+    - The style reminds me a bit of Mana. She's very shy, so she would never admit
+      it, but she's a good writer.
     - She also hinted to me, that she likes someone. Go ask her, but don't be too
       pushy.
-    - She should be in front of her house right now, all the way tot the right.
+    - She is currently standing in front of her house, on the far right next to the
+      store.
   inProgressDialogue:
     lines:
-    - Mana lives all the way on the right side of the village.
+    - 'Emmett: Mana lives in the house to the far right of the store. She should
+      be outside right now.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

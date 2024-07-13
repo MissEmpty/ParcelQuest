@@ -20,7 +20,8 @@ MonoBehaviour:
     lines: []
   completedDialogue:
     lines:
-    - You found it, that's the right one! It was probably stolen by my cat....anyways,
-      thank you very much. You've been a great help.
+    - 'Wizard Gale: You found it! Yes, this is the right one. It must have been stolen
+      and taken away by my mischievous familiar.'
+    - Anyway, thank you very much. You were a great help!
   requiredItem: {fileID: 0}
   rewardItem: {fileID: 0}

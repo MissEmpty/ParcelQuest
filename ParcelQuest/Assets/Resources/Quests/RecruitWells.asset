@@ -16,12 +16,13 @@ MonoBehaviour:
   description: Ask Farmer Wells to help out at the festival
   startDialogue:
     lines:
-    - Rosa wants me to tell stories for the festival? Of course, I would be happy
-      to!
-    - I think Farmer Wells said something about providing some of his crops. Maybe
-      you should go and talk to him about that.
+    - 'Grannie Ann: Rosa wants me to tell stories tomorrow? I''d be happy to do that!'
+    - I think Farmer Wells wants to help as well and provide some food. But you should
+      double-check with him.
   inProgressDialogue:
-    lines: []
+    lines:
+    - 'Grannie Ann: I''m looking forward to helping out tomorrow! Please don''t forget
+      to ask Wells about the food.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

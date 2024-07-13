@@ -16,13 +16,14 @@ MonoBehaviour:
   description: Investigate the strange noises at the shrine
   startDialogue:
     lines:
-    - People say there are some creepy noises coming from the shrine lately. Nobody
-      seems to be brave enough to check tho...
-    - You seem like you're not scared of anything. Maybe you could stop by the shrine,
-      if you have time. It's in the forest.
+    - 'Arthur: I''ve heard spooky noises in the forest near the shrine for the past
+      few nights. Now I''m too scared to go there to honor the ancient gods...'
+    - You seem fearless, so could you perhaps take a look? The shrine is located
+      in the south of the forest, as you probably already know.
   inProgressDialogue:
     lines:
-    - The shrine is in the forest. I'm too scared to check for myself...
+    - 'Arthur: The shrine is in the south of the forest. I''m much too scared to
+      check there myself.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

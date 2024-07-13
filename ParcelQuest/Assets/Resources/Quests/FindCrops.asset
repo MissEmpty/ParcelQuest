@@ -16,15 +16,16 @@ MonoBehaviour:
   description: Find the crop thief in the forest
   startDialogue:
     lines:
-    - Thank you for delivering my fertilizer. But it won't help me much, if someone
-      doesn't stop stealing my crops!
-    - 'Last night I found some foot prints leading from my field to the forest on
-      the left side of the village. '
-    - I'm busy guarding the scene, so if you have the time, could you maybe see if
-      you can find the cropsnatcher over there?
+    - 'Farmer Wells: Ah, there''s my fertilizer. But it won''t help me much if someone
+      keeps stealing my harvest. That''s the third time!'
+    - Would you do me a favor and look for the culprit for me? I have to keep watch
+      here.
+    - The last time I looked around, I found tracks leading into the forest to the
+      left of the village. Good luck!
   inProgressDialogue:
     lines:
-    - Did you find out anything? The tracks lead me to the forest entrance.
+    - 'Farmer Wells: Were you able to find out anything? The tracks lead into the
+      forest to the left of the village.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

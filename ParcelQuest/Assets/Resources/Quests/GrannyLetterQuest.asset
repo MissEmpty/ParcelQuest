@@ -16,15 +16,15 @@ MonoBehaviour:
   description: Deliver a letter to Grannie Ann.
   startDialogue:
     lines:
-    - Welcome to your first day at the local post office Cylia! I'm Edna and I will
-      help you with your errands today.
+    - 'Edna: Welcome to your first day at the local post office Cylia! I''m Edna
+      and I will help you with your errands today.'
     - For your first one, I want you to bring this letter to Grannie Ann. In the
-      mornings, she is usually around her house, on the left to our office. Send
-      her my greetings!
+      morning she is usually around her house to the left of our office. Send her
+      my greetings!
   inProgressDialogue:
     lines:
-    - Did you talk to Ann yet? Maybe you could even give her a hand if she needs
-      something else.
+    - 'Edna: Did you talk to Ann yet? Maybe you could even give her a hand if she
+      needs something else.'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

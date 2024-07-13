@@ -16,12 +16,13 @@ MonoBehaviour:
   description: Ask Mana to help out at the festival
   startDialogue:
     lines:
-    - Of course I can provide food for tomorrow. I was thinking of doing that anyway.
-    - Some music would be nice too. Mana is quite a talented performer, so you might
-      want to ask her.
+    - 'Farmer Wells: Of course, I''ll provide food for the festival. The preparations
+      have already been made.'
+    - . Some music would be nice as well. I heard that Mana is quite a good musician,
+      so maybe you could ask her.
   inProgressDialogue:
     lines:
-    - Did you ask Mana for some musical entertainment?
+    - 'Farmer Wells:  Have you asked Mana for some musical entertainment yet?'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}
