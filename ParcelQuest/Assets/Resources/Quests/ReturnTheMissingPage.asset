@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ReturnTheMissingPage
   m_EditorClassIdentifier: 
   name: Return The Missing Page
-  description: Return the page to the old wizard
+  description: Return the page to Wizard Gale
   startDialogue:
     lines: []
   inProgressDialogue:

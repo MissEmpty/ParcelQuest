@@ -18,9 +18,9 @@ MonoBehaviour:
     lines:
     - 'Rosa: Are these the cups for tomorrow''s village festival? Thank you very
       much for the quick delivery!'
-    - ' have my hands full with the preparations at the moment, but I still need
+    - I have my hands full with the preparations at the moment, but I still need
       people to help out tomorrow. It would be a great help if you could ask around
-      a bit!'
+      a bit!
     - You could start with Grannie Ann and ask if she could tell one of her famous
       stories.
   inProgressDialogue:

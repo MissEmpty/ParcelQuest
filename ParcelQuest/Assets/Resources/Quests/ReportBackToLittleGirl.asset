@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: ReportBackToLittleGirl
   m_EditorClassIdentifier: 
   name: Report Back To Little Girl
-  description: Report back to the little girl
+  description: Report back to the Livia
   startDialogue:
     lines:
-    - Cylia placed some flowers in front of the grave. She can report back to the
-      little Livia now.
+    - Cylia placed some flowers in front of the grave. She can report back to little
+      Livia now.
   inProgressDialogue:
     lines: []
   completedDialogue:
     lines:
-    - 'You took care of my dad''s grave for me? '
+    - 'Livia: You took care of my dad''s grave for me? Thanks to you I''m sure my
+      dad is very happy now!'
   requiredItem: {fileID: 0}
   rewardItem: {fileID: 0}

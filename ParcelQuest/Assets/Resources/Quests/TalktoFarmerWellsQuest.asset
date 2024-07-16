@@ -16,7 +16,7 @@ MonoBehaviour:
   description: Deliver fertilizer to Famer Wells
   startDialogue:
     lines:
-    - 'Edna: Were you able to deliver the letter! You also helped Ann with something
+    - 'Edna: Were you able to deliver the letter? You also helped Ann with something
       else? That''s great! '
     - 'I''m delighted at how committed you are. Your next job is to deliver this
       fertilizer to Farmer Wells. '

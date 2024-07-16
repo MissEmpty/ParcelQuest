@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FindTheMissingPage
   m_EditorClassIdentifier: 
   name: Find The Missing Page
-  description: Find the missing page for the old wizard
+  description: Find the missing page for Wizard Gale
   startDialogue:
     lines:
     - 'Wizard Gale: Good day, young lady! Would you help an old wizard in need? An
@@ -23,7 +23,8 @@ MonoBehaviour:
     - My legs don't carry me very far anymore...
   inProgressDialogue:
     lines:
-    - Were you able to find the page? I'm worried it might fall into the wrong hands...
+    - 'Wizard Gale: Were you able to find the page? I''m worried it might fall into
+      the wrong hands...'
   completedDialogue:
     lines: []
   requiredItem: {fileID: 0}

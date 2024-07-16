@@ -18,8 +18,9 @@ MonoBehaviour:
     lines:
     - 'Dorothy: You work for the post office, right? Maybe you can help me. My last
       order from the city never arrived.'
-    - he usual route to our village leads through the forest which has many hidden
-      corners. Could you check there for me?
+    - The usual route to our village leads through the forest which has many hidden
+      corners. Could you check there for me? I shouldn't leave the store during opening
+      hours.
     - I would be infinitely grateful!
   inProgressDialogue:
     lines:

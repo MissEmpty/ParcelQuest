@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ReturnToStoreGuy
   m_EditorClassIdentifier: 
   name: Return To Store Guy
-  description: Tell the guy from the store, that you found the origin of the noises
+  description: Tell Arthur that you found the origin of the noises
   startDialogue:
     lines:
     - Cylia should report back now.
@@ -22,6 +22,7 @@ MonoBehaviour:
   completedDialogue:
     lines:
     - 'Arthur: Did you find the cause? Wait, don''t tell me! It must have been extremely
-      scary, I don''t want to hear about it.'
+      scary, I don''t want to hear about it. I just hope the noises will be quiet
+      from now on...'
   requiredItem: {fileID: 0}
   rewardItem: {fileID: 0}

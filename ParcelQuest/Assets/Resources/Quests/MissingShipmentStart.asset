@@ -20,10 +20,8 @@ MonoBehaviour:
       a thief? It''s only your first day, but you''re doing great!'
     - Your next task takes you to Dorothy, the owner of the general store. She has
       ordered a large quantity of goods, but they have never arrived.
-    - Your next task takes you to Dorothy, the owner of the general store. She has
-      ordered a large quantity of goods, but they have never arrived. Maybe you can
-      help her find out where the delivery is. In case you've forgotten, the store
-      is to the right of Wells farm.
+    - Maybe you can help her find out where the delivery is. In case you've forgotten,
+      the store is to the right of Wells farm.
   inProgressDialogue:
     lines:
     - 'Edna: Did you talk to Dorothy yet? She owns the general store to the right
