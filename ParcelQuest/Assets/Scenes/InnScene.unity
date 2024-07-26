@@ -1485,7 +1485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4404694058392351720, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: 4404694058392351720, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1537,11 +1537,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: dialog.lines.Array.data[0]
-      value: In my free time I like to help out here at the inn.
+      value: 'Melody: Thanks again for your help. The letter made me really happy!'
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.size
@@ -1835,7 +1835,7 @@ Transform:
   m_GameObject: {fileID: 441459890}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 123.01, y: -4.5, z: 1.6389759}
+  m_LocalPosition: {x: 118.62, y: -5.21, z: 1.6389759}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1993,7 +1993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].x
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].y
@@ -2001,7 +2001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[1].x
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[1].y
@@ -2064,7 +2064,7 @@ Transform:
   m_GameObject: {fileID: 580719853}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 123.01, y: -4.589, z: 1.6389759}
+  m_LocalPosition: {x: 120.45, y: -5.54, z: 1.6389759}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2344,7 +2344,7 @@ MonoBehaviour:
         actor:
           isPlayer: 0
           character: {fileID: 221140754}
-        direction: 2
+        direction: 0
     - rid: 5318429128086257669
       type: {class: DialogueAction, ns: , asm: Assembly-CSharp}
       data:
@@ -2515,7 +2515,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.3167305, y: 1.9211822}
+  m_Offset: {x: -1.0748253, y: -0.34845817}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2526,7 +2526,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.086021, y: 6.044132}
+  m_Size: {x: 4.162529, y: 3.4685519}
   m_EdgeRadius: 0
 --- !u!1001 &722978799
 PrefabInstance:
@@ -2678,7 +2678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].x
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].y
@@ -2686,7 +2686,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[1].x
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[1].y
@@ -3112,16 +3112,16 @@ CompositeCollider2D:
         Y: 0
       - X: -52500000
         Y: 0
-    - - X: 8437500
-        Y: -4687500
-      - X: 7812500
-        Y: -4062500
-      - X: 1875000
-        Y: -4062500
-      - X: 1875000
-        Y: -10000000
-      - X: 8437500
-        Y: -10000000
+    - - X: -1562500
+        Y: 5312500
+      - X: -2187500
+        Y: 5937500
+      - X: -8125000
+        Y: 5937500
+      - X: -8125000
+        Y: 0
+      - X: -1562500
+        Y: 0
   m_CompositePaths:
     m_Paths:
     - - {x: -0.2500166, y: 2.21875}
@@ -3185,11 +3185,11 @@ CompositeCollider2D:
       - {x: -5.5625033, y: 0.843749}
       - {x: -5.78125, y: 0.7812289}
       - {x: -5.781221, y: 0}
-    - - {x: 0.84372073, y: -1}
-      - {x: 0.84374243, y: -0.4687424}
-      - {x: 0.7812392, y: -0.40625}
-      - {x: 0.1875, y: -0.4062793}
-      - {x: 0.1875293, y: -1}
+    - - {x: -0.1562793, y: 0}
+      - {x: -0.1562576, y: 0.5312576}
+      - {x: -0.2187608, y: 0.59375}
+      - {x: -0.8125, y: 0.59372073}
+      - {x: -0.81247073, y: 0}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
@@ -3315,16 +3315,6 @@ Tilemap:
   m_GameObject: {fileID: 805994109}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 0, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 5
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: -6, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -3350,6 +3340,16 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 11
       m_TileSpriteIndex: 12
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: -1, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3666,7 +3666,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 11efdfc2facc3dc4b926d43f37eddae7, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 9700c1593b5a4414d9a40ca6b2a07d0a, type: 2}
+    m_Data: {fileID: 11400000, guid: f9ed654f1895aed4181effecd9aaa1f0, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 551d2b1d3f298b24f946ac3b14ce8f60, type: 2}
   - m_RefCount: 1
@@ -3719,7 +3719,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -1459703090, guid: d84f37825e4500141bf0e642dc942394, type: 3}
   - m_RefCount: 1
-    m_Data: {fileID: -314363354, guid: d84f37825e4500141bf0e642dc942394, type: 3}
+    m_Data: {fileID: -974848951, guid: 5b62f5b0af5eb814fbcb59d856573dd0, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1573260992, guid: d84f37825e4500141bf0e642dc942394, type: 3}
   - m_RefCount: 1
@@ -4604,7 +4604,7 @@ Transform:
   m_GameObject: {fileID: 1026597593}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 121.80513, y: -6.23, z: 0.8695897}
+  m_LocalPosition: {x: 121.80513, y: -6.08, z: 0.8695897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4797,7 +4797,7 @@ Transform:
   m_GameObject: {fileID: 1138718938}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 123.01, y: -4.5, z: 1.5799146}
+  m_LocalPosition: {x: 118.62, y: -5.21, z: 1.5799146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6701,7 +6701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].x
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[0].y
@@ -6709,7 +6709,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[1].x
-      value: 1
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8094688961382177391, guid: 1ab9dc6d91b495845a6c0d3559a0aa4f, type: 3}
       propertyPath: movementPattern.Array.data[1].y
@@ -7038,7 +7038,7 @@ Transform:
   m_GameObject: {fileID: 2110418845}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 123.01, y: -4.5, z: 1.5799146}
+  m_LocalPosition: {x: 118.62, y: -5.21, z: 1.5799146}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
