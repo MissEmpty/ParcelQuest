@@ -770,6 +770,11 @@ PrefabInstance:
       value: -282.6637
       objectReference: {fileID: 0}
     - target: {fileID: 6888952395955822510, guid: b40762adc193eea4692e89d39ed9d3c1, type: 3}
+      propertyPath: m_Text
+      value: Press WASD to move the character. With E you can interact with objects
+        and NPCs. If you want to open and close the menu press ESC.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6888952395955822510, guid: b40762adc193eea4692e89d39ed9d3c1, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 38
       objectReference: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ReportBackToLittleGirl
   m_EditorClassIdentifier: 
   name: Report Back To Little Girl
-  description: Report back to the Livia
+  description: Report back to Livia
   startDialogue:
     lines:
     - Cylia placed some flowers in front of the grave. She can report back to little

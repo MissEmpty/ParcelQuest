@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AfterLittleGirl
   m_EditorClassIdentifier: 
   name: AfterLittleGirl
-  description: I helped Livia to clean her Fathers grave
+  description: I helped Livia to clean her fathers grave
   startDialogue:
     lines: []
   inProgressDialogue:

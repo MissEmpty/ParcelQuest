@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ReturnToGrannie
   m_EditorClassIdentifier: 
   name: Return To Grannie
-  description: Return the necklace to Grannie Ann.
+  description: Return the necklace to Grannie Ann
   startDialogue:
     lines: []
   inProgressDialogue:
